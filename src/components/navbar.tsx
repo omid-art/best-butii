@@ -26,27 +26,41 @@ export default function Navbar() {
   return (
     <nav
       className={`
-        w-full z-50 transition-all duration-300
+        w-full z-50
+        transition-all duration-500 
+        ease-[cubic-bezier(.25,.1,.25,1)]
         ${isSticky ? "fixed top-0 left-0" : "relative"}
       `}
     >
       <div
         className={`
-          transition-all duration-300
-          backdrop-blur-xl bg-white/70 border border-white/60
-          shadow-[0_6px_20px_rgba(0,0,0,0.1)]
-          
-          w-[80%] mx-auto px-6
-${
-  isSticky
-    ? "mt-0 rounded-3xl py-3 shadow-[0_4px_12px_rgba(0,0,0,0.08)]"
-    : "mt-6 rounded-3xl py-4 shadow-[0_10px_35px_rgba(0,0,0,0.12),0_0_20px_rgba(255,255,255,0.4)]"
-}        `}
+    transition-all duration-500 
+    ease-[cubic-bezier(.25,.1,.25,1)]
+    backdrop-blur-xl bg-white/70 border-gray-300 
+    
+    w-[80%] mx-auto px-6
+    transform-gpu
+
+    ${
+      isSticky
+        ? `
+        mt-0 
+        scale-[0.98]
+        rounded-3xl py-3 
+        shadow-lg
+        `
+        : `
+        mt-6 
+        scale-100
+        rounded-3xl py-4 shadow-2xl
+        `
+    }
+  `}
       >
         <div className="flex flex-col gap-3">
-          {/* ---- TOP ROW ---- */}
+          {/* TOP ROW */}
           <div className="flex items-center justify-between w-full">
-            {/* LEFT SIDE */}
+            {/* LEFT BUTTONS */}
             <div className="flex items-center gap-4 text-sm font-medium">
               <Link
                 href="/cart"
@@ -77,21 +91,20 @@ ${
               <div className="hidden md:flex">
                 <div
                   className="
-      relative rounded-3xl p-[2px] 
-     border-2 border-[#a9396fd9]
-    "
+                    relative rounded-3xl p-[2px] 
+                    border-2 border-[#a9396fd9]
+                  "
                 >
-                  {/* inner glass box */}
                   <div
                     className="
-        flex items-center
-        bg-white/40 backdrop-blur-xl 
-        rounded-3xl 
-        px-5 py-2 w-80 
-        shadow-[0_0_18px_rgba(230,160,180,0.3)]
-        hover:shadow-[0_0_26px_rgba(230,160,180,0.45)]
-        transition-all duration-300
-      "
+                      flex items-center
+                      bg-white/40 backdrop-blur-xl 
+                      rounded-3xl 
+                      px-5 py-2 w-80 
+                      shadow-[0_0_18px_rgba(230,160,180,0.3)]
+                      hover:shadow-[0_0_26px_rgba(230,160,180,0.45)]
+                      transition-all duration-300
+                    "
                   >
                     <input
                       type="text"
@@ -106,19 +119,20 @@ ${
               {/* LOGO */}
               <Link
                 href="/"
-                className="text-3xl font-extrabold tracking-wide text-[#b4107a] hover:text-[#d64ea7] transition-all select-none"
+                className="text-3xl font-extrabold tracking-wide text-[#b4107a] 
+                hover:text-[#d64ea7] transition-all select-none"
               >
                 BEST-BUTII
               </Link>
             </div>
           </div>
 
-          {/* ---- BOTTOM TABS ---- */}
+          {/* TABS */}
           <ul className="flex items-center justify-center gap-8 text-[15px] font-medium">
             {[
               { name: "ارتباط با ما", icon: <Mail size={16} /> },
               { name: "برندها", icon: <Layers size={16} /> },
-              { name: "دسته بندی محصولات", icon: <Gift size={16} /> },
+              { name: "محصولات", icon: <Gift size={16} /> },
               { name: "تنظیمات", icon: <Settings size={16} /> },
               { name: "خانه", icon: <Home size={16} /> },
             ].map((item) => (

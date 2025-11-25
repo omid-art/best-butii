@@ -1,5 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
+import { FaInstagram, FaTelegram, FaWhatsapp } from "react-icons/fa";
 import {
   Star,
   Globe,
@@ -10,6 +11,7 @@ import {
   ChevronLeft,
   Heart,
 } from "lucide-react";
+import Link from "next/link";
 
 const images = ["/tablighat/1.jpg", "/tablighat/2.jpg", "/tablighat/3.jpg"];
 
@@ -124,7 +126,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* CATEGORIES SECTION 5*/}
+      {/* CATEGORIES SECTION 5 */}
       <section className="mt-14 max-w-7xl mx-auto ">
         <div className="flex flex-row-reverse items-center mb-10 justify-end">
           <h2 className="text-2xl font-extrabold text-gray-800 whitespace-nowrap ml-4">
@@ -136,12 +138,7 @@ export default function HomePage() {
           {categories.map((cat, idx) => (
             <div
               key={idx}
-              className="
-        relative w-44 aspect-square rounded-4xl cursor-pointer overflow-hidden
-        shadow-xl
-        transition-all duration-300 ease-out
-        hover:scale-110 hover:shadow-3xl
-      "
+              className="relative w-44 aspect-square rounded-4xl cursor-pointer overflow-hidden shadow-xl transition-all duration-300 ease-out hover:scale-110 hover:shadow-3xl"
               style={{
                 background: "linear-gradient(to bottom, #e7a7b1, #ffffff)",
               }}
@@ -160,7 +157,6 @@ export default function HomePage() {
 
       {/* SECTION 6 – PRODUCT CARDS */}
       <section className="mt-28">
-        {/* SECTION TITLE */}
         <div className="max-w-7xl mx-auto flex flex-row-reverse items-center mb-6 justify-end">
           <h2 className="text-2xl font-extrabold text-gray-800 whitespace-nowrap ml-4">
             پیشنهاد ویژه
@@ -168,34 +164,19 @@ export default function HomePage() {
           <div className="flex-1 h-[3px] bg-gray-300"></div>
         </div>
 
-        {/* BACKGROUND WRAPPER */}
-        <div
-          className="max-w-7xl mx-auto relative bg-[#d18893] rounded-[40px] 
-      pt-6 pb-6 px-6"
-        >
-          {/* GRID – CARDS FLOAT OUTSIDE */}
-          <div
-            className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8
-                    translate-y-20"
-          >
+        <div className="max-w-7xl mx-auto relative bg-[#d18893] rounded-[40px] pt-6 pb-6 px-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 translate-y-20">
             {products.map((p) => (
               <div
                 key={p.id}
-                className="relative border border-gray-300 w-full h-[350px] rounded-3xl 
-          overflow-hidden shadow-xl bg-gray-200 cursor-pointer"
+                className="relative border border-gray-300 w-full h-[350px] rounded-3xl overflow-hidden shadow-xl bg-gray-200 cursor-pointer"
               >
-                {/* PRODUCT IMAGE */}
                 <div
                   className="w-full h-full bg-cover bg-center"
                   style={{ backgroundImage: `url(${p.img})` }}
                 ></div>
 
-                {/* DARK GRADIENT */}
-                <div
-                  className="absolute bottom-0 w-full h-40 bg-gradient-to-t 
-            from-black/80 to-transparent p-4 flex flex-col justify-end"
-                >
-                  {/* LIKE BUTTON */}
+                <div className="absolute bottom-0 w-full h-40 bg-gradient-to-t from-black/80 to-transparent p-4 flex flex-col justify-end">
                   <div
                     className="absolute top-3 right-3"
                     onClick={() => toggleLike(p.id)}
@@ -210,10 +191,7 @@ export default function HomePage() {
                   <h3 className="text-white font-bold text-lg">{p.title}</h3>
                   <p className="text-gray-200 text-sm mt-1">تومان {p.price}</p>
 
-                  <button
-                    className="mt-2 bg-white text-black px-4 py-1 rounded-full 
-              text-sm font-semibold w-fit self-start"
-                  >
+                  <button className="mt-2 bg-white text-black px-4 py-1 rounded-full text-sm font-semibold w-fit self-start">
                     مشاهده و خرید
                   </button>
                 </div>
@@ -222,8 +200,47 @@ export default function HomePage() {
           </div>
         </div>
 
-        {/* SPACE BELOW FOR FLOATING EFFECT */}
         <div className="h-24"></div>
+      </section>
+
+      {/* SECTION 7 – SOCIAL MEDIA BANNER */}
+      <section className="max-w-7xl mx-auto mt-20 mb-16">
+        <div
+          className="w-full rounded-3xl p-6 md:p-10 flex flex-row items-center justify-between"
+          dir="ltr"
+          style={{
+            background: "linear-gradient(to right, #eaa9b2, #9d5c66)",
+          }}
+        >
+          {/* ICONS (LEFT) */}
+          <div className="flex items-center gap-6">
+            <Link
+              href="#"
+              className="w-14 h-14 rounded-2xl bg-pink-300 flex items-center justify-center shadow-xl hover:scale-110 transition"
+            >
+              <FaInstagram className="text-4xl text-white" />
+            </Link>
+
+            <Link
+              href="#"
+              className="w-14 h-14 rounded-2xl bg-pink-300 flex items-center justify-center shadow-xl hover:scale-110 transition"
+            >
+              <FaTelegram className="text-4xl text-white" />
+            </Link>
+
+            <Link
+              href="#"
+              className="w-14 h-14 rounded-2xl bg-pink-300 flex items-center justify-center shadow-xl hover:scale-110 transition"
+            >
+              <FaWhatsapp className="text-4xl text-white" />
+            </Link>
+          </div>
+
+          {/* TEXT (RIGHT) */}
+          <h2 className="text-white text-2xl md:text-3xl font-extrabold mb-6 md:mb-0 text-right">
+            ما را در شبکه های اجتماعی دنبال کنید
+          </h2>
+        </div>
       </section>
     </div>
   );
