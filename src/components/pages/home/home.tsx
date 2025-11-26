@@ -12,6 +12,8 @@ import {
   Heart,
 } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
+import BrandSection from "./section9";
 
 const images = ["/tablighat/1.jpg", "/tablighat/2.jpg", "/tablighat/3.jpg"];
 
@@ -242,6 +244,78 @@ export default function HomePage() {
           </h2>
         </div>
       </section>
+
+      {/* SECTION 8 – BANNER GRID */}
+      <section className="max-w-7xl mx-auto mt-24 mb-20">
+        {/* TITLE */}
+        <div className="flex flex-row-reverse items-center mb-10 justify-end">
+          <h2 className="text-2xl font-extrabold text-gray-800 whitespace-nowrap ml-4">
+            بهترین پیشنهادها برای شما
+          </h2>
+          <div className="flex-1 h-[2px] bg-gray-200"></div>
+        </div>
+
+        {/* 2 TOP BANNERS */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+          {["/baner/1.jpg", "/baner/2.jpg"].map((src, i) => (
+            <div
+              key={i}
+              className="relative w-full h-48 md:h-64 rounded-3xl overflow-hidden shadow-xl cursor-pointer transition-transform hover:scale-105"
+            >
+              {/* BLUR BACKGROUND (fills the card without empty space) */}
+              <Image
+                src={src}
+                alt=""
+                fill
+                className="object-cover blur-xl scale-110"
+              />
+
+              {/* REAL IMAGE (object-contain so nothing gets cut) */}
+              <div className="absolute inset-0 flex items-center justify-center bg-black/10">
+                <Image
+                  src={src}
+                  alt={`banner-${i}`}
+                  width={500}
+                  height={500}
+                  className="object-contain max-h-full max-w-full drop-shadow-lg"
+                />
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* 3 BOTTOM BANNERS */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          {["/baner/33.png", "/baner/44.png", "/baner/55.png"].map((src, i) => (
+            <div
+              key={i}
+              className="relative w-full h-48 md:h-64 rounded-3xl overflow-hidden shadow-xl cursor-pointer transition-transform hover:scale-105"
+            >
+              {/* BLUR BACKGROUND */}
+              <Image
+                src={src}
+                alt=""
+                fill
+                className="object-cover blur-xl scale-110"
+              />
+
+              {/* REAL IMAGE */}
+              <div className="absolute inset-0 flex items-center justify-center bg-black/10">
+                <Image
+                  src={src}
+                  alt={`banner-${i + 3}`}
+                  width={500}
+                  height={500}
+                  className="object-contain max-h-full max-w-full drop-shadow-lg"
+                />
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* SECTION 9 – BANNER GRID */}
+      <BrandSection />
     </div>
   );
 }

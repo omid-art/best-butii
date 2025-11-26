@@ -1,5 +1,6 @@
 "use client";
 
+import { usePathname } from "next/navigation";
 import {
   FaInstagram,
   FaTelegram,
@@ -11,6 +12,15 @@ import {
 import { FaFireFlameCurved } from "react-icons/fa6";
 
 export default function Footer() {
+   const pathname = usePathname();
+
+  // صفحات بدون Navbar
+  const hiddenRoutes = ["/login", "/register"];
+
+  if (hiddenRoutes.includes(pathname)) {
+    return null;
+  }
+
   return (
     <footer className="w-full mt-20">
       <div
@@ -28,8 +38,8 @@ export default function Footer() {
             </h1>
 
             <p className="text-white/90 mt-2 text-base leading-relaxed">
-              فروشگاه لاکچری لوازم آرایشی و بهداشتی  
-              زیبایی واقعی از اینجا شروع میشه ✨💄
+              فروشگاه لاکچری لوازم آرایشی و بهداشتی زیبایی واقعی از اینجا شروع
+              میشه ✨💄
             </p>
           </div>
 
@@ -49,7 +59,6 @@ export default function Footer() {
 
         {/* LINKS & CONTACT */}
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
-
           {/* QUICK LINKS */}
           <div className="flex flex-col gap-3 text-lg">
             <h3 className="font-bold text-xl mb-2 drop-shadow-md">
@@ -62,7 +71,9 @@ export default function Footer() {
 
           {/* CONTACT */}
           <div className="flex flex-col gap-4 text-lg">
-            <h3 className="font-bold text-xl mb-2 drop-shadow-md">ارتباط با ما</h3>
+            <h3 className="font-bold text-xl mb-2 drop-shadow-md">
+              ارتباط با ما
+            </h3>
 
             <p className="footer-contact">
               <FaPhoneAlt size={16} />

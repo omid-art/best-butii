@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": 1764149266712,
+      "phone": "09108610567",
+      "otp": "12345",
+      "firstName": "omid",
+      "lastName": "pourbagher",
+      "birthDate": "1386/01/19",
+      "location": "kataj",
+      "age": "13",
+      "gender": "male",
+      "username": "omid",
+      "password": "00000123",
+      "isAdmin": true,
+      "isLoggedIn": true
+    },
+    {
+      "id": 1764162265830,
+      "phone": "09108610567",
+      "otp": "12345",
+      "firstName": "omid",
+      "lastName": "pourbagher",
+      "birthDate": "1386/01/19",
+      "location": "kataj",
+      "age": "18",
+      "gender": "male",
+      "username": "omid2",
+      "password": "12345678",
+      "isAdmin": false,
+      "isLoggedIn": true
+    }
+  ]
+}
