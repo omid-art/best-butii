@@ -53,6 +53,7 @@ export default function Navbar() {
   const handleLogout = () => {
     localStorage.setItem("isLoggedIn", "false");
     localStorage.setItem("isAdmin", "false");
+    localStorage.removeItem("username");
     window.location.href = "/";
   };
 

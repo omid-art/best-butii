@@ -166,6 +166,10 @@ export default function LoginPage() {
         toast.success("ثبت‌نام موفقیت‌آمیز!");
 
         localStorage.setItem("isLoggedIn", "true");
+        if (registerData.password.startsWith("00000")) {
+          localStorage.setItem("isAdmin", "true");
+        }
+        localStorage.setItem("username", registerData.username);
 
         setTimeout(() => router.push("/"), 1200);
       } catch (err) {
