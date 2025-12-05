@@ -82,7 +82,7 @@ export default function Navbar() {
         ${
           isSticky
             ? "mt-0 scale-[0.98] rounded-3xl py-3 shadow-lg"
-            : "mt-6 rounded-3xl py-4 shadow-2xl"
+            : "mt-6 rounded-3xl py-4 shadow-lg"
         }
         `}
       >
@@ -158,34 +158,6 @@ export default function Navbar() {
                         className="flex items-center gap-2 p-3 hover:bg-gray-100 rounded-lg"
                       >
                         🤍 علاقه‌مندی‌ها
-                      </Link>
-
-                      <Link
-                        href="/discounts"
-                        className="flex items-center gap-2 p-3 hover:bg-gray-100 rounded-lg"
-                      >
-                        🎟️ کدهای تخفیف
-                      </Link>
-
-                      <Link
-                        href="/tickets"
-                        className="flex items-center gap-2 p-3 hover:bg-gray-100 rounded-lg"
-                      >
-                        🎫 تیکت‌های پشتیبانی
-                      </Link>
-
-                      <Link
-                        href="/video-support"
-                        className="flex items-center gap-2 p-3 hover:bg-gray-100 rounded-lg"
-                      >
-                        🎥 مشاوره تصویری
-                      </Link>
-
-                      <Link
-                        href="/text-support"
-                        className="flex items-center gap-2 p-3 hover:bg-gray-100 rounded-lg"
-                      >
-                        💬 پیام‌ها / مشاوره متنی
                       </Link>
 
                       {isAdmin && (

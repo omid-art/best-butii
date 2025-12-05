@@ -2,255 +2,255 @@
   "product-perfume-and-spray": [
     {
       "id": 1,
-      "name": "Floral Women Perfume",
+      "name": "عطر زنانه گلدار",
       "brand": "benz",
       "price": "350,000",
-      "isLike": true,
+      "isLike": false,
       "url": "/products/perfume-and-spray/perfume-and-cologn/women-perfume/1.jpg",
-      "color": "pink",
+      "color": "صورتی",
       "layout-two": "perfume-and-cologn",
       "layout-three": "women-perfume",
-      "description": "Floral fragrance perfect for everyday wear"
+      "description": "رایحه گلدار مناسب استفاده روزمره"
     },
     {
       "id": 2,
-      "name": "Sweet Women Perfume",
+      "name": "عطر زنانه شیرین",
       "brand": "lora",
       "price": "370,000",
       "isLike": false,
       "url": "/products/perfume-and-spray/perfume-and-cologn/women-perfume/2.jpg",
-      "color": "light-pink",
+      "color": "صورتی روشن",
       "layout-two": "perfume-and-cologn",
       "layout-three": "women-perfume",
-      "description": "Sweet and elegant scent for special occasions"
+      "description": "رایحه شیرین و شیک برای مناسبت‌های خاص"
     },
     {
       "id": 3,
-      "name": "Citrus Women Perfume",
+      "name": "عطر زنانه مرکباتی",
       "brand": "maxy",
       "price": "390,000",
-      "isLike": true,
+      "isLike": false,
       "url": "/products/perfume-and-spray/perfume-and-cologn/women-perfume/3.jpg",
-      "color": "orange",
+      "color": "نارنجی",
       "layout-two": "perfume-and-cologn",
       "layout-three": "women-perfume",
-      "description": "Fresh citrus fragrance for active lifestyle"
+      "description": "رایحه تازه مرکباتی برای سبک زندگی فعال"
     },
     {
       "id": 4,
-      "name": "Woody Men Perfume",
+      "name": "عطر مردانه چوبی",
       "brand": "benz",
       "price": "360,000",
-      "isLike": true,
+      "isLike": false,
       "url": "/products/perfume-and-spray/perfume-and-cologn/men-perfume/1.jpg",
-      "color": "brown",
+      "color": "قهوه‌ای",
       "layout-two": "perfume-and-cologn",
       "layout-three": "men-perfume",
-      "description": "Woody fragrance for confident men"
+      "description": "رایحه چوبی برای مردان با اعتماد به نفس"
     },
     {
       "id": 5,
-      "name": "Spicy Men Perfume",
+      "name": "عطر مردانه تند",
       "brand": "lora",
       "price": "380,000",
       "isLike": false,
       "url": "/products/perfume-and-spray/perfume-and-cologn/men-perfume/2.jpg",
-      "color": "dark-brown",
+      "color": "قهوه‌ای تیره",
       "layout-two": "perfume-and-cologn",
       "layout-three": "men-perfume",
-      "description": "Spicy aroma for a bold impression"
+      "description": "رایحه تند برای ایجاد اثر جسورانه"
     },
     {
       "id": 6,
-      "name": "Fresh Men Perfume",
+      "name": "عطر مردانه تازه",
       "brand": "maxy",
       "price": "400,000",
-      "isLike": true,
+      "isLike": false,
       "url": "/products/perfume-and-spray/perfume-and-cologn/men-perfume/3.jpg",
-      "color": "blue",
+      "color": "آبی",
       "layout-two": "perfume-and-cologn",
       "layout-three": "men-perfume",
-      "description": "Fresh fragrance for daily wear"
+      "description": "رایحه تازه برای استفاده روزمره"
     },
     {
       "id": 7,
-      "name": "Gentle Baby Perfume",
+      "name": "عطر بچه‌گانه ملایم",
       "brand": "benz",
       "price": "250,000",
-      "isLike": true,
+      "isLike": false,
       "url": "/products/perfume-and-spray/perfume-and-cologn/Baby-perfume/1.jpg",
-      "color": "light-blue",
+      "color": "آبی روشن",
       "layout-two": "perfume-and-cologn",
       "layout-three": "Baby-perfume",
-      "description": "Gentle fragrance for babies’ sensitive skin"
+      "description": "رایحه ملایم مناسب پوست حساس نوزادان"
     },
     {
       "id": 8,
-      "name": "Sweet Baby Perfume",
+      "name": "عطر بچه‌گانه شیرین",
       "brand": "lora",
       "price": "260,000",
       "isLike": false,
       "url": "/products/perfume-and-spray/perfume-and-cologn/Baby-perfume/2.jpg",
-      "color": "light-pink",
+      "color": "صورتی روشن",
       "layout-two": "perfume-and-cologn",
       "layout-three": "Baby-perfume",
-      "description": "Sweet and safe fragrance for babies"
+      "description": "رایحه شیرین و ایمن برای نوزادان"
     },
     {
       "id": 9,
-      "name": "Fresh Baby Perfume",
+      "name": "عطر بچه‌گانه تازه",
       "brand": "maxy",
       "price": "270,000",
-      "isLike": true,
+      "isLike": false,
       "url": "/products/perfume-and-spray/perfume-and-cologn/Baby-perfume/3.jpg",
-      "color": "yellow",
+      "color": "زرد",
       "layout-two": "perfume-and-cologn",
       "layout-three": "Baby-perfume",
-      "description": "Fresh and soft fragrance for daily use"
+      "description": "رایحه تازه و ملایم برای استفاده روزانه"
     },
     {
       "id": 10,
-      "name": "Floral Body Spray",
+      "name": "اسپری بدن گلدار",
       "brand": "benz",
       "price": "150,000",
-      "isLike": true,
+      "isLike": false,
       "url": "/products/perfume-and-spray/body-spray/women-spray/1.jpg",
-      "color": "pink",
+      "color": "صورتی",
       "layout-two": "body-spray",
       "layout-three": "women-spray",
-      "description": "Floral scented body spray for women"
+      "description": "اسپری بدن با رایحه گلدار برای زنان"
     },
     {
       "id": 11,
-      "name": "Fresh Body Spray",
+      "name": "اسپری بدن تازه",
       "brand": "lora",
       "price": "160,000",
       "isLike": false,
       "url": "/products/perfume-and-spray/body-spray/women-spray/2.jpg",
-      "color": "white",
+      "color": "سفید",
       "layout-two": "body-spray",
       "layout-three": "women-spray",
-      "description": "Fresh fragrance for daily use"
+      "description": "رایحه تازه برای استفاده روزمره"
     },
     {
       "id": 12,
-      "name": "Sweet Body Spray",
+      "name": "اسپری بدن شیرین",
       "brand": "maxy",
       "price": "170,000",
-      "isLike": true,
+      "isLike": false,
       "url": "/products/perfume-and-spray/body-spray/women-spray/3.jpg",
-      "color": "light-pink",
+      "color": "صورتی روشن",
       "layout-two": "body-spray",
       "layout-three": "women-spray",
-      "description": "Sweet scented body spray for women"
+      "description": "اسپری بدن با رایحه شیرین برای زنان"
     },
     {
       "id": 13,
-      "name": "Woody Body Spray",
+      "name": "اسپری بدن چوبی",
       "brand": "benz",
       "price": "160,000",
-      "isLike": true,
+      "isLike": false,
       "url": "/products/perfume-and-spray/body-spray/man-spray/1.jpg",
-      "color": "brown",
+      "color": "قهوه‌ای",
       "layout-two": "body-spray",
       "layout-three": "man-spray",
-      "description": "Woody fragrance body spray for men"
+      "description": "اسپری بدن با رایحه چوبی برای مردان"
     },
     {
       "id": 14,
-      "name": "Spicy Body Spray",
+      "name": "اسپری بدن تند",
       "brand": "lora",
       "price": "170,000",
       "isLike": false,
       "url": "/products/perfume-and-spray/body-spray/man-spray/2.jpg",
-      "color": "dark-brown",
+      "color": "قهوه‌ای تیره",
       "layout-two": "body-spray",
       "layout-three": "man-spray",
-      "description": "Spicy fragrance body spray for men"
+      "description": "اسپری بدن با رایحه تند برای مردان"
     },
     {
       "id": 15,
-      "name": "Fresh Body Spray",
+      "name": "اسپری بدن تازه مردانه",
       "brand": "maxy",
       "price": "180,000",
-      "isLike": true,
+      "isLike": false,
       "url": "/products/perfume-and-spray/body-spray/man-spray/3.jpg",
-      "color": "blue",
+      "color": "آبی",
       "layout-two": "body-spray",
       "layout-three": "man-spray",
-      "description": "Fresh fragrance for men"
+      "description": "رایحه تازه برای مردان"
     },
     {
       "id": 16,
-      "name": "Floral Body Splash",
+      "name": "اسپلش بدن گلدار",
       "brand": "benz",
       "price": "140,000",
-      "isLike": true,
+      "isLike": false,
       "url": "/products/perfume-and-spray/body-splash/women-splash-bodysuit/1.jpg",
-      "color": "pink",
+      "color": "صورتی",
       "layout-two": "body-splash",
       "layout-three": "women-splash-bodysuit",
-      "description": "Floral body splash for refreshing scent"
+      "description": "اسپلش بدن گلدار برای رایحه‌ای تازه"
     },
     {
       "id": 17,
-      "name": "Fresh Body Splash",
+      "name": "اسپلش بدن تازه",
       "brand": "lora",
       "price": "150,000",
       "isLike": false,
       "url": "/products/perfume-and-spray/body-splash/women-splash-bodysuit/2.jpg",
-      "color": "white",
+      "color": "سفید",
       "layout-two": "body-splash",
       "layout-three": "women-splash-bodysuit",
-      "description": "Fresh body splash for daily use"
+      "description": "اسپلش بدن تازه برای استفاده روزمره"
     },
     {
       "id": 18,
-      "name": "Sweet Body Splash",
+      "name": "اسپلش بدن شیرین",
       "brand": "maxy",
       "price": "160,000",
-      "isLike": true,
+      "isLike": false,
       "url": "/products/perfume-and-spray/body-splash/women-splash-bodysuit/3.jpg",
-      "color": "light-pink",
+      "color": "صورتی روشن",
       "layout-two": "body-splash",
       "layout-three": "women-splash-bodysuit",
-      "description": "Sweet scented body splash for women"
+      "description": "اسپلش بدن با رایحه شیرین برای زنان"
     },
     {
       "id": 19,
-      "name": "Woody Body Splash",
+      "name": "اسپلش بدن چوبی",
       "brand": "benz",
       "price": "150,000",
-      "isLike": true,
+      "isLike": false,
       "url": "/products/perfume-and-spray/body-splash/men-splash-bodysuit/1.jpg",
-      "color": "brown",
+      "color": "قهوه‌ای",
       "layout-two": "body-splash",
       "layout-three": "men-splash-bodysuit",
-      "description": "Woody fragrance body splash for men"
+      "description": "اسپلش بدن با رایحه چوبی برای مردان"
     },
     {
       "id": 20,
-      "name": "Spicy Body Splash",
+      "name": "اسپلش بدن تند",
       "brand": "lora",
       "price": "160,000",
       "isLike": false,
       "url": "/products/perfume-and-spray/body-splash/men-splash-bodysuit/2.jpg",
-      "color": "dark-brown",
+      "color": "قهوه‌ای تیره",
       "layout-two": "body-splash",
       "layout-three": "men-splash-bodysuit",
-      "description": "Spicy fragrance body splash for men"
+      "description": "اسپلش بدن با رایحه تند برای مردان"
     },
     {
       "id": 21,
-      "name": "Fresh Body Splash",
+      "name": "اسپلش بدن تازه مردانه",
       "brand": "maxy",
       "price": "170,000",
-      "isLike": true,
+      "isLike": false,
       "url": "/products/perfume-and-spray/body-splash/men-splash-bodysuit/3.jpg",
-      "color": "blue",
+      "color": "آبی",
       "layout-two": "body-splash",
       "layout-three": "men-splash-bodysuit",
-      "description": "Fresh body splash for daily wear"
+      "description": "اسپلش بدن تازه برای استفاده روزمره"
     }
   ]
 }
