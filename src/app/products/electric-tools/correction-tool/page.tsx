@@ -1,18 +1,33 @@
-import ProductComponent from "@/components/pages/products/products";
+"use client";
+import { useParams } from "next/navigation";
+import db from "@/data/products/product-makeup.json"; 
+import ProductDetails from "@/components/pages/products/productDetails";
 
-async function getData() {
-  const res = await fetch("http://localhost:5001/product-electric-tools", {
-    cache: "no-store",
-  });
-  return res.json();
-}
+export default function Page() {
+  const { id } = useParams();
 
-export default async function FaceMakeupPage() {
-  const allProducts = await getData();
+  const categories = db; 
+  const allProducts = Object.entries(categories)
+    .flatMap(([category, items]) =>
+      items.map((item) => ({ ...item, category }))
+    );
 
-  const filteredProducts = allProducts.filter(
-    (item: any) => item["layout-two"] === "correction-tool"
+  const layoutProducts = allProducts.filter(
+    (p) => p["layout-two"] === "correction-tool"
   );
 
-  return <ProductComponent products={filteredProducts} />;
+  const product = layoutProducts.find((p) => p.id === Number(id));
+
+  if (!product)
+    return (
+      <div className="flex justify-center items-center h-screen text-gray-600 text-lg">
+        محصولی با این شناسه یا layout موجود نیست 😢
+      </div>
+    );
+
+  const relatedProducts = layoutProducts.filter(
+    (p) => p.id !== product.id
+  );
+
+  return <ProductDetails product={product} relatedProducts={relatedProducts} />;
 }

@@ -1,36 +1,111 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+فروشگاه حرفه‌ای با React, Tailwind  وNext و typescript و Framer Motion
 
-## Getting Started
+🔥 معرفی پروژه
 
-First, run the development server:
+این پروژه یک فروشگاه آنلاین مدرن آرایشی بهداشتی است که با React.ts, Next.ts , typescript, Tailwind CSS و Framer Motion ساخته شده و شامل امکانات حرفه‌ای زیر است:
 
-```bash
+نمایش جزئیات محصول با باکس جذاب و انیمیشن ورود عناصر
+
+تصاویر محصولات و محصولات مشابه با fit کامل و responsive
+
+بخش محصولات مشابه با hover حرفه‌ای و micro-interactions
+
+سبد خرید با انیمیشن اضافه کردن محصول و نوتیفیکیشن
+
+طراحی ریسپانسیو و راست‌به‌چپ (RTL) برای تجربه کاربری بهتر
+
+استفاده از motion برای انیمیشن‌های load و scroll
+
+🛠️ تکنولوژی‌ها و ابزارها
+
+React.js – کتابخانه اصلی فرانت‌اند
+
+Tailwind CSS v3.4.17 – طراحی حرفه‌ای و responsive
+
+Framer Motion – انیمیشن‌های smooth و جذاب
+
+TypeScript – برای توسعه امن و بدون ارور
+
+Next.js (اختیاری) – برای ساخت صفحات با SSR و Static Generation
+
+JSON Server – شبیه‌سازی API برای داده‌های محصولات
+
+📦 ویژگی‌های پروژه
+بخش محصول اصلی
+
+تصویر محصول با object-cover و wrapper حرفه‌ای
+
+باکس اطلاعات محصول با label : value
+
+Price با رنگ قرمز و برجسته
+
+سبد خرید
+
+افزودن به سبد خرید با انیمیشن bounce و notification
+
+محدودیت کلیک هنگام اضافه شدن محصول
+
+محصولات مشابه
+
+کارت‌های مشابه با hover scale و shadow حرفه‌ای
+
+تصاویر کامل و بدون cut، همیشه responsive
+
+gradient overlay جذاب و micro-interactions روی دکمه‌ها
+
+⚡ قابلیت‌ها و انیمیشن‌ها
+
+Load animation: اجزای صفحه با staggered animation نمایش داده می‌شوند
+
+Scroll animation: هنگام اسکرول، محصولات مشابه با fade-in و slide-in ظاهر می‌شوند
+
+Hover interaction: کارت‌ها، دکمه‌ها و بخش‌های info با micro-interactions واکنش نشان می‌دهند
+
+Responsive design: تمام بخش‌ها در موبایل و دسکتاپ عالی نمایش داده می‌شوند
+
+RTL support: متن‌ها و layout کاملاً راست‌به‌چپ
+
+🚀 نحوه اجرا پروژه
+
+کلون کردن پروژه:
+
+git clone https://github.com/USERNAME/PROJECT_NAME.git
+cd PROJECT_NAME
+
+
+نصب dependencies:
+
+npm install
+
+
+اجرای پروژه:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+باز کردن پروژه در مرورگر:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+http://localhost:3000
 
-## Learn More
+🖼️ پیش‌نمایش
+صفحه اصلی
 
-To learn more about Next.js, take a look at the following resources:
+جزئیات محصول
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+📁 ساختار پروژه
+/components  -> کامپوننت‌های Navbar، ProductCard، ProductDetails
+/pages       -> صفحات اصلی و جزئیات محصول
+/public      -> تصاویر و assets
+/styles      -> فایل‌های Tailwind و CSS
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+💡 نکات مهم
 
-## Deploy on Vercel
+پروژه قابل توسعه و اضافه کردن ویژگی‌های بیشتر مثل ری‌اکشن به محصولات، فیلتر و جستجو، پنل ادمین است
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+انیمیشن‌ها با Framer Motion کاملاً قابل سفارشی‌سازی هستند
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+تصاویر و دیتا از JSON Server بارگذاری می‌شوند، امکان اتصال به API واقعی وجود دارد
+
+📌 License
+
+MIT License © [omid pourbagher]
