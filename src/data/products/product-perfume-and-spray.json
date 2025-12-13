@@ -8,9 +8,10 @@
       "isLike": false,
       "url": "/products/perfume-and-spray/perfume-and-cologn/women-perfume/1.jpg",
       "color": "صورتی",
-      "layout-two": "perfume-and-cologn",
+      "layout-two": "perfume-and-cologne",
       "layout-three": "women-perfume",
-      "description": "رایحه گلدار مناسب استفاده روزمره"
+      "description": "رایحه گلدار مناسب استفاده روزمره",
+      "category": "perfume-and-spray"
     },
     {
       "id": 2,
@@ -20,9 +21,10 @@
       "isLike": false,
       "url": "/products/perfume-and-spray/perfume-and-cologn/women-perfume/2.jpg",
       "color": "صورتی روشن",
-      "layout-two": "perfume-and-cologn",
+      "layout-two": "perfume-and-cologne",
       "layout-three": "women-perfume",
-      "description": "رایحه شیرین و شیک برای مناسبت‌های خاص"
+      "description": "رایحه شیرین و شیک برای مناسبت‌های خاص",
+      "category": "perfume-and-spray"
     },
     {
       "id": 3,
@@ -32,9 +34,10 @@
       "isLike": false,
       "url": "/products/perfume-and-spray/perfume-and-cologn/women-perfume/3.jpg",
       "color": "نارنجی",
-      "layout-two": "perfume-and-cologn",
+      "layout-two": "perfume-and-cologne",
       "layout-three": "women-perfume",
-      "description": "رایحه تازه مرکباتی برای سبک زندگی فعال"
+      "description": "رایحه تازه مرکباتی برای سبک زندگی فعال",
+      "category": "perfume-and-spray"
     },
     {
       "id": 4,
@@ -44,9 +47,10 @@
       "isLike": false,
       "url": "/products/perfume-and-spray/perfume-and-cologn/men-perfume/1.jpg",
       "color": "قهوه‌ای",
-      "layout-two": "perfume-and-cologn",
+      "layout-two": "perfume-and-cologne",
       "layout-three": "men-perfume",
-      "description": "رایحه چوبی برای مردان با اعتماد به نفس"
+      "description": "رایحه چوبی برای مردان با اعتماد به نفس",
+      "category": "perfume-and-spray"
     },
     {
       "id": 5,
@@ -56,9 +60,10 @@
       "isLike": false,
       "url": "/products/perfume-and-spray/perfume-and-cologn/men-perfume/2.jpg",
       "color": "قهوه‌ای تیره",
-      "layout-two": "perfume-and-cologn",
+      "layout-two": "perfume-and-cologne",
       "layout-three": "men-perfume",
-      "description": "رایحه تند برای ایجاد اثر جسورانه"
+      "description": "رایحه تند برای ایجاد اثر جسورانه",
+      "category": "perfume-and-spray"
     },
     {
       "id": 6,
@@ -68,9 +73,10 @@
       "isLike": false,
       "url": "/products/perfume-and-spray/perfume-and-cologn/men-perfume/3.jpg",
       "color": "آبی",
-      "layout-two": "perfume-and-cologn",
+      "layout-two": "perfume-and-cologne",
       "layout-three": "men-perfume",
-      "description": "رایحه تازه برای استفاده روزمره"
+      "description": "رایحه تازه برای استفاده روزمره",
+      "category": "perfume-and-spray"
     },
     {
       "id": 7,
@@ -80,9 +86,10 @@
       "isLike": false,
       "url": "/products/perfume-and-spray/perfume-and-cologn/Baby-perfume/1.jpg",
       "color": "آبی روشن",
-      "layout-two": "perfume-and-cologn",
+      "layout-two": "perfume-and-cologne",
       "layout-three": "Baby-perfume",
-      "description": "رایحه ملایم مناسب پوست حساس نوزادان"
+      "description": "رایحه ملایم مناسب پوست حساس نوزادان",
+      "category": "perfume-and-spray"
     },
     {
       "id": 8,
@@ -92,9 +99,10 @@
       "isLike": false,
       "url": "/products/perfume-and-spray/perfume-and-cologn/Baby-perfume/2.jpg",
       "color": "صورتی روشن",
-      "layout-two": "perfume-and-cologn",
+      "layout-two": "perfume-and-cologne",
       "layout-three": "Baby-perfume",
-      "description": "رایحه شیرین و ایمن برای نوزادان"
+      "description": "رایحه شیرین و ایمن برای نوزادان",
+      "category": "perfume-and-spray"
     },
     {
       "id": 9,
@@ -104,9 +112,10 @@
       "isLike": false,
       "url": "/products/perfume-and-spray/perfume-and-cologn/Baby-perfume/3.jpg",
       "color": "زرد",
-      "layout-two": "perfume-and-cologn",
+      "layout-two": "perfume-and-cologne",
       "layout-three": "Baby-perfume",
-      "description": "رایحه تازه و ملایم برای استفاده روزانه"
+      "description": "رایحه تازه و ملایم برای استفاده روزانه",
+      "category": "perfume-and-spray"
     },
     {
       "id": 10,
@@ -118,7 +127,8 @@
       "color": "صورتی",
       "layout-two": "body-spray",
       "layout-three": "women-spray",
-      "description": "اسپری بدن با رایحه گلدار برای زنان"
+      "description": "اسپری بدن با رایحه گلدار برای زنان",
+      "category": "perfume-and-spray"
     },
     {
       "id": 11,
@@ -130,7 +140,8 @@
       "color": "سفید",
       "layout-two": "body-spray",
       "layout-three": "women-spray",
-      "description": "رایحه تازه برای استفاده روزمره"
+      "description": "رایحه تازه برای استفاده روزمره",
+      "category": "perfume-and-spray"
     },
     {
       "id": 12,
@@ -142,7 +153,8 @@
       "color": "صورتی روشن",
       "layout-two": "body-spray",
       "layout-three": "women-spray",
-      "description": "اسپری بدن با رایحه شیرین برای زنان"
+      "description": "اسپری بدن با رایحه شیرین برای زنان",
+      "category": "perfume-and-spray"
     },
     {
       "id": 13,
@@ -154,7 +166,8 @@
       "color": "قهوه‌ای",
       "layout-two": "body-spray",
       "layout-three": "man-spray",
-      "description": "اسپری بدن با رایحه چوبی برای مردان"
+      "description": "اسپری بدن با رایحه چوبی برای مردان",
+      "category": "perfume-and-spray"
     },
     {
       "id": 14,
@@ -166,7 +179,8 @@
       "color": "قهوه‌ای تیره",
       "layout-two": "body-spray",
       "layout-three": "man-spray",
-      "description": "اسپری بدن با رایحه تند برای مردان"
+      "description": "اسپری بدن با رایحه تند برای مردان",
+      "category": "perfume-and-spray"
     },
     {
       "id": 15,
@@ -178,7 +192,8 @@
       "color": "آبی",
       "layout-two": "body-spray",
       "layout-three": "man-spray",
-      "description": "رایحه تازه برای مردان"
+      "description": "رایحه تازه برای مردان",
+      "category": "perfume-and-spray"
     },
     {
       "id": 16,
@@ -190,7 +205,8 @@
       "color": "صورتی",
       "layout-two": "body-splash",
       "layout-three": "women-splash-bodysuit",
-      "description": "اسپلش بدن گلدار برای رایحه‌ای تازه"
+      "description": "اسپلش بدن گلدار برای رایحه‌ای تازه",
+      "category": "perfume-and-spray"
     },
     {
       "id": 17,
@@ -202,7 +218,8 @@
       "color": "سفید",
       "layout-two": "body-splash",
       "layout-three": "women-splash-bodysuit",
-      "description": "اسپلش بدن تازه برای استفاده روزمره"
+      "description": "اسپلش بدن تازه برای استفاده روزمره",
+      "category": "perfume-and-spray"
     },
     {
       "id": 18,
@@ -214,7 +231,8 @@
       "color": "صورتی روشن",
       "layout-two": "body-splash",
       "layout-three": "women-splash-bodysuit",
-      "description": "اسپلش بدن با رایحه شیرین برای زنان"
+      "description": "اسپلش بدن با رایحه شیرین برای زنان",
+      "category": "perfume-and-spray"
     },
     {
       "id": 19,
@@ -226,7 +244,8 @@
       "color": "قهوه‌ای",
       "layout-two": "body-splash",
       "layout-three": "men-splash-bodysuit",
-      "description": "اسپلش بدن با رایحه چوبی برای مردان"
+      "description": "اسپلش بدن با رایحه چوبی برای مردان",
+      "category": "perfume-and-spray"
     },
     {
       "id": 20,
@@ -238,7 +257,8 @@
       "color": "قهوه‌ای تیره",
       "layout-two": "body-splash",
       "layout-three": "men-splash-bodysuit",
-      "description": "اسپلش بدن با رایحه تند برای مردان"
+      "description": "اسپلش بدن با رایحه تند برای مردان",
+      "category": "perfume-and-spray"
     },
     {
       "id": 21,
@@ -250,7 +270,8 @@
       "color": "آبی",
       "layout-two": "body-splash",
       "layout-three": "men-splash-bodysuit",
-      "description": "اسپلش بدن تازه برای استفاده روزمره"
+      "description": "اسپلش بدن تازه برای استفاده روزمره",
+      "category": "perfume-and-spray"
     }
   ]
 }

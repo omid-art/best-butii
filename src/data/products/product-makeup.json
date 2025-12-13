@@ -8,6 +8,7 @@
       "isLike": false,
       "url": "/products/makeup/face-makeup/powder-cream/1.jpg",
       "color": "beige",
+      "category": "makeup",
       "layout-two": "face-makeup",
       "layout-three": "powder-cream",
       "description": "پوشش صاف و یکدست"
@@ -20,6 +21,7 @@
       "isLike": false,
       "url": "/products/makeup/face-makeup/powder-cream/2.jpg",
       "color": "light-beige",
+      "category": "makeup",
       "layout-two": "face-makeup",
       "layout-three": "powder-cream",
       "description": "لمس نرم و پوشش یکدست"
@@ -32,6 +34,7 @@
       "isLike": false,
       "url": "/products/makeup/face-makeup/powder-cream/3.jpg",
       "color": "طبیعی",
+      "category": "makeup",
       "layout-two": "face-makeup",
       "layout-three": "powder-cream",
       "description": "پوشش با کیفیت و وضوح بالا"
@@ -44,6 +47,7 @@
       "isLike": false,
       "url": "/products/makeup/face-makeup/pancake/1.jpg",
       "color": "کرمی",
+      "category": "makeup",
       "layout-two": "face-makeup",
       "layout-three": "pancake",
       "description": "پایان‌بندی مات و طبیعی"
@@ -56,6 +60,7 @@
       "isLike": false,
       "url": "/products/makeup/face-makeup/pancake/2.jpg",
       "color": "vanilla",
+      "category": "makeup",
       "layout-two": "face-makeup",
       "layout-three": "pancake",
       "description": "پوشش‌دهی بسیار قوی"
@@ -68,6 +73,7 @@
       "isLike": false,
       "url": "/products/makeup/face-makeup/pancake/3.jpg",
       "color": "sand",
+      "category": "makeup",
       "layout-two": "face-makeup",
       "layout-three": "pancake",
       "description": "نمایی طبیعی روی پوست"
@@ -80,6 +86,7 @@
       "isLike": false,
       "url": "/products/makeup/face-makeup/concealer/1.jpg",
       "color": "روشن",
+      "category": "makeup",
       "layout-two": "face-makeup",
       "layout-three": "concealer",
       "description": "پوشانندگی کامل و حرفه‌ای"
@@ -92,6 +99,7 @@
       "isLike": false,
       "url": "/products/makeup/face-makeup/concealer/2.jpg",
       "color": "ivory",
+      "category": "makeup",
       "layout-two": "face-makeup",
       "layout-three": "concealer",
       "description": "لطیف و مناسب روشن‌سازی"
@@ -106,7 +114,8 @@
       "color": "medium",
       "layout-two": "face-makeup",
       "layout-three": "concealer",
-      "description": "پوششی حرفه‌ای و تمیز"
+      "description": "پوششی حرفه‌ای و تمیز",
+      "category": "makeup"
     },
     {
       "id": 10,
@@ -118,7 +127,8 @@
       "color": "صورتی",
       "layout-two": "face-makeup",
       "layout-three": "blush",
-      "description": "رنگ صورتی لطیف و زیبا"
+      "description": "رنگ صورتی لطیف و زیبا",
+      "category": "makeup"
     },
     {
       "id": 11,
@@ -130,7 +140,8 @@
       "color": "coral",
       "layout-two": "face-makeup",
       "layout-three": "blush",
-      "description": "رنگ کورالی ملایم و طبیعی"
+      "description": "رنگ کورالی ملایم و طبیعی",
+      "category": "makeup"
     },
     {
       "id": 12,
@@ -142,7 +153,8 @@
       "color": "peach",
       "layout-two": "face-makeup",
       "layout-three": "blush",
-      "description": "رنگ طبیعی با جلوه درخشان"
+      "description": "رنگ طبیعی با جلوه درخشان",
+      "category": "makeup"
     },
     {
       "id": 13,
@@ -154,7 +166,8 @@
       "color": "مشکی",
       "layout-two": "eye-makeup-eyebrows",
       "layout-three": "Rimmel",
-      "description": "افزایش حجم مژه‌ها"
+      "description": "افزایش حجم مژه‌ها",
+      "category": "makeup"
     },
     {
       "id": 14,
@@ -166,7 +179,8 @@
       "color": "مشکی",
       "layout-two": "eye-makeup-eyebrows",
       "layout-three": "Rimmel",
-      "description": "ضد آب و ماندگاری طولانی"
+      "description": "ضد آب و ماندگاری طولانی",
+      "category": "makeup"
     },
     {
       "id": 15,
@@ -178,7 +192,8 @@
       "color": "قهوه ای",
       "layout-two": "eye-makeup-eyebrows",
       "layout-three": "Rimmel",
-      "description": "جلوه‌ای طبیعی برای مژه‌ها"
+      "description": "جلوه‌ای طبیعی برای مژه‌ها",
+      "category": "makeup"
     },
     {
       "id": 16,
@@ -190,7 +205,8 @@
       "color": "مشکی",
       "layout-two": "eye-makeup-eyebrows",
       "layout-three": "Pencil-and-eyeliner",
-      "description": "مداد چشم مشکی با بافت روان"
+      "description": "مداد چشم مشکی با بافت روان",
+      "category": "makeup"
     },
     {
       "id": 17,
@@ -202,7 +218,8 @@
       "color": "قهوه ای",
       "layout-two": "eye-makeup-eyebrows",
       "layout-three": "Pencil-and-eyeliner",
-      "description": "ماندگاری بالا و رنگ قهوه‌ای"
+      "description": "ماندگاری بالا و رنگ قهوه‌ای",
+      "category": "makeup"
     },
     {
       "id": 18,
@@ -214,7 +231,8 @@
       "color": "مشکی",
       "layout-two": "eye-makeup-eyebrows",
       "layout-three": "Pencil-and-eyeliner",
-      "description": "خط چشم ضد آب با دوام عالی"
+      "description": "خط چشم ضد آب با دوام عالی",
+      "category": "makeup"
     },
     {
       "id": 19,
@@ -226,7 +244,8 @@
       "color": "nude",
       "layout-two": "eye-makeup-eyebrows",
       "layout-three": "eye-shadow",
-      "description": "پالت سایه با تناژهای نود"
+      "description": "پالت سایه با تناژهای نود",
+      "category": "makeup"
     },
     {
       "id": 20,
@@ -238,7 +257,8 @@
       "color": "هفت رنگ",
       "layout-two": "eye-makeup-eyebrows",
       "layout-three": "eye-shadow",
-      "description": "پالت سایه با ترکیب رنگ‌های متنوع"
+      "description": "پالت سایه با ترکیب رنگ‌های متنوع",
+      "category": "makeup"
     },
     {
       "id": 21,
@@ -250,7 +270,8 @@
       "color": "smokey",
       "layout-two": "eye-makeup-eyebrows",
       "layout-three": "eye-shadow",
-      "description": "پالت سایه چشم با جلوه اسموکی"
+      "description": "پالت سایه چشم با جلوه اسموکی",
+      "category": "makeup"
     },
     {
       "id": 22,
@@ -262,7 +283,8 @@
       "color": "transparent",
       "layout-two": "eye-makeup-eyebrows",
       "layout-three": "Eyebrow-gel-and-soap",
-      "description": "ژل ابرو با قدرت نگهداری بالا"
+      "description": "ژل ابرو با قدرت نگهداری بالا",
+      "category": "makeup"
     },
     {
       "id": 23,
@@ -274,7 +296,8 @@
       "color": "transparent",
       "layout-two": "eye-makeup-eyebrows",
       "layout-three": "Eyebrow-gel-and-soap",
-      "description": "صابون لیفت و حالت‌دهی ابرو"
+      "description": "صابون لیفت و حالت‌دهی ابرو",
+      "category": "makeup"
     },
     {
       "id": 24,
@@ -286,7 +309,8 @@
       "color": "قهوه ای",
       "layout-two": "eye-makeup-eyebrows",
       "layout-three": "Eyebrow-gel-and-soap",
-      "description": "ژل ابرو با جلوه طبیعی"
+      "description": "ژل ابرو با جلوه طبیعی",
+      "category": "makeup"
     },
     {
       "id": 25,
@@ -298,7 +322,8 @@
       "color": "قرمز",
       "layout-two": "lip-makeup",
       "layout-three": "lipstick",
-      "description": "رژلب مات قرمز با ماندگاری بالا"
+      "description": "رژلب مات قرمز با ماندگاری بالا",
+      "category": "makeup"
     },
     {
       "id": 26,
@@ -310,7 +335,8 @@
       "color": "nude",
       "layout-two": "lip-makeup",
       "layout-three": "lipstick",
-      "description": "رژلب نود با جلوه‌ای طبیعی"
+      "description": "رژلب نود با جلوه‌ای طبیعی",
+      "category": "makeup"
     },
     {
       "id": 27,
@@ -322,7 +348,8 @@
       "color": "berry",
       "layout-two": "lip-makeup",
       "layout-three": "lipstick",
-      "description": "رژلب تیره با تناژ تمشکی"
+      "description": "رژلب تیره با تناژ تمشکی",
+      "category": "makeup"
     },
     {
       "id": 28,
@@ -334,7 +361,8 @@
       "color": "قرمز",
       "layout-two": "lip-makeup",
       "layout-three": "Pencil-and-lip-liner",
-      "description": "مداد لب قرمز با خطی دقیق"
+      "description": "مداد لب قرمز با خطی دقیق",
+      "category": "makeup"
     },
     {
       "id": 29,
@@ -346,7 +374,8 @@
       "color": "nude",
       "layout-two": "lip-makeup",
       "layout-three": "Pencil-and-lip-liner",
-      "description": "مداد لب نود با رنگی طبیعی"
+      "description": "مداد لب نود با رنگی طبیعی",
+      "category": "makeup"
     },
     {
       "id": 30,
@@ -358,7 +387,8 @@
       "color": "قهوه ای",
       "layout-two": "lip-makeup",
       "layout-three": "Pencil-and-lip-liner",
-      "description": "مداد لب قهوه‌ای با جلوه طبیعی"
+      "description": "مداد لب قهوه‌ای با جلوه طبیعی",
+      "category": "makeup"
     },
     {
       "id": 31,
@@ -370,7 +400,8 @@
       "color": "cherry",
       "layout-two": "lip-makeup",
       "layout-three": "lip-tint",
-      "description": "تینت لب با رنگ گیلاسی درخشان"
+      "description": "تینت لب با رنگ گیلاسی درخشان",
+      "category": "makeup"
     },
     {
       "id": 32,
@@ -382,7 +413,8 @@
       "color": "rose",
       "layout-two": "lip-makeup",
       "layout-three": "lip-tint",
-      "description": "تینت لب با رنگ رز ملایم و طبیعی"
+      "description": "تینت لب با رنگ رز ملایم و طبیعی",
+      "category": "makeup"
     },
     {
       "id": 33,
@@ -394,7 +426,8 @@
       "color": "coral",
       "layout-two": "lip-makeup",
       "layout-three": "lip-tint",
-      "description": "تینت لب با رنگ کورال درخشان"
+      "description": "تینت لب با رنگ کورال درخشان",
+      "category": "makeup"
     },
     {
       "id": 34,
@@ -406,7 +439,8 @@
       "color": "wine",
       "layout-two": "lip-makeup",
       "layout-three": "Liquid-lipstick-and-lip-gloss",
-      "description": "رژ لب مایع با پوشش مات و ماندگاری بالا"
+      "description": "رژ لب مایع با پوشش مات و ماندگاری بالا",
+      "category": "makeup"
     },
     {
       "id": 35,
@@ -418,7 +452,8 @@
       "color": "شفاف",
       "layout-two": "lip-makeup",
       "layout-three": "Liquid-lipstick-and-lip-gloss",
-      "description": "گلاس لب شفاف با براقیت کریستالی"
+      "description": "گلاس لب شفاف با براقیت کریستالی",
+      "category": "makeup"
     },
     {
       "id": 36,
@@ -430,7 +465,8 @@
       "color": "nude",
       "layout-two": "lip-makeup",
       "layout-three": "Liquid-lipstick-and-lip-gloss",
-      "description": "رژ لب مایع با رنگ نود و بافت مخملی"
+      "description": "رژ لب مایع با رنگ نود و بافت مخملی",
+      "category": "makeup"
     },
     {
       "id": 37,
@@ -442,7 +478,8 @@
       "color": "قرمز",
       "layout-two": "nail-makeup",
       "layout-three": "nail-polish",
-      "description": "لاک ناخن قرمز با جلوه کلاسیک"
+      "description": "لاک ناخن قرمز با جلوه کلاسیک",
+      "category": "makeup"
     },
     {
       "id": 38,
@@ -454,7 +491,8 @@
       "color": "nude",
       "layout-two": "nail-makeup",
       "layout-three": "nail-polish",
-      "description": "لاک ناخن نود با رنگی نرم و چشم‌نواز"
+      "description": "لاک ناخن نود با رنگی نرم و چشم‌نواز",
+      "category": "makeup"
     },
     {
       "id": 39,
@@ -466,7 +504,8 @@
       "color": "صورتی",
       "layout-two": "nail-makeup",
       "layout-three": "nail-polish",
-      "description": "لاک ناخن صورتی براق و جذاب"
+      "description": "لاک ناخن صورتی براق و جذاب",
+      "category": "makeup"
     },
     {
       "id": 40,
@@ -478,7 +517,8 @@
       "color": "transparent",
       "layout-two": "nail-makeup",
       "layout-three": "nail-polish-remover",
-      "description": "محلول پاک‌کننده لاک دارای استون"
+      "description": "محلول پاک‌کننده لاک دارای استون",
+      "category": "makeup"
     },
     {
       "id": 41,
@@ -490,7 +530,8 @@
       "color": "زرد",
       "layout-two": "nail-makeup",
       "layout-three": "nail-polish-remover",
-      "description": "محلول پاک‌کننده لاک حاوی ویتامین C"
+      "description": "محلول پاک‌کننده لاک حاوی ویتامین C",
+      "category": "makeup"
     },
     {
       "id": 42,
@@ -502,7 +543,8 @@
       "color": "صورتی",
       "layout-two": "nail-makeup",
       "layout-three": "nail-polish-remover",
-      "description": "محلول پاک‌کننده لاک با رایحه رز"
+      "description": "محلول پاک‌کننده لاک با رایحه رز",
+      "category": "makeup"
     },
     {
       "id": 43,
@@ -514,7 +556,8 @@
       "color": "سفید",
       "layout-two": "nail-makeup",
       "layout-three": "artificial-nails",
-      "description": "ست ناخن مصنوعی با طرح کلاسیک"
+      "description": "ست ناخن مصنوعی با طرح کلاسیک",
+      "category": "makeup"
     },
     {
       "id": 44,
@@ -526,7 +569,8 @@
       "color": "french",
       "layout-two": "nail-makeup",
       "layout-three": "artificial-nails",
-      "description": "ناخن مصنوعی با طراحی فرنچ کلاسیک"
+      "description": "ناخن مصنوعی با طراحی فرنچ کلاسیک",
+      "category": "makeup"
     },
     {
       "id": 45,
@@ -538,7 +582,8 @@
       "color": "beige",
       "layout-two": "nail-makeup",
       "layout-three": "artificial-nails",
-      "description": "ناخن مصنوعی با رنگ بژ طبیعی"
+      "description": "ناخن مصنوعی با رنگ بژ طبیعی",
+      "category": "makeup"
     },
     {
       "id": 46,
@@ -550,7 +595,8 @@
       "color": "هفت رنگ",
       "layout-two": "nail-makeup",
       "layout-three": "Nail-design-supplies",
-      "description": "پک اکلیل مخصوص تزئین ناخن"
+      "description": "پک اکلیل مخصوص تزئین ناخن",
+      "category": "makeup"
     },
     {
       "id": 47,
@@ -562,7 +608,8 @@
       "color": "شفاف",
       "layout-two": "nail-makeup",
       "layout-three": "Nail-design-supplies",
-      "description": "ست سنگ و نگین برای طراحی ناخن"
+      "description": "ست سنگ و نگین برای طراحی ناخن",
+      "category": "makeup"
     },
     {
       "id": 48,
@@ -574,7 +621,8 @@
       "color": "سفید",
       "layout-two": "nail-makeup",
       "layout-three": "Nail-design-supplies",
-      "description": "کیف قلم‌مو مناسب طراحی و دیزاین ناخن"
+      "description": "کیف قلم‌مو مناسب طراحی و دیزاین ناخن",
+      "category": "makeup"
     },
     {
       "id": 49,
@@ -586,7 +634,8 @@
       "color": "طوسی",
       "layout-two": "cosmetic-tools",
       "layout-three": "Eyebrow-razor",
-      "description": "تیغ ابرو کلاسیک برای فرم‌دهی دقیق"
+      "description": "تیغ ابرو کلاسیک برای فرم‌دهی دقیق",
+      "category": "makeup"
     },
     {
       "id": 50,
@@ -598,7 +647,8 @@
       "color": "مشکی",
       "layout-two": "cosmetic-tools",
       "layout-three": "Eyebrow-razor",
-      "description": "تیغ ابرو با دسته نرم و ایمن برای اصلاح"
+      "description": "تیغ ابرو با دسته نرم و ایمن برای اصلاح",
+      "category": "makeup"
     },
     {
       "id": 51,
@@ -610,7 +660,8 @@
       "color": "سفید",
       "layout-two": "cosmetic-tools",
       "layout-three": "Eyebrow-razor",
-      "description": "تیغ مخصوص فرم‌دهی دقیق ابرو"
+      "description": "تیغ مخصوص فرم‌دهی دقیق ابرو",
+      "category": "makeup"
     },
     {
       "id": 52,
@@ -622,7 +673,8 @@
       "color": "صورتی",
       "layout-two": "cosmetic-tools",
       "layout-three": "lathe",
-      "description": "تراش کوچک و کاربردی برای ابزار آرایشی"
+      "description": "تراش کوچک و کاربردی برای ابزار آرایشی",
+      "category": "makeup"
     },
     {
       "id": 53,
@@ -634,7 +686,8 @@
       "color": "سفید",
       "layout-two": "cosmetic-tools",
       "layout-three": "lathe",
-      "description": "تراش حرفه‌ای مناسب انواع مداد آرایشی"
+      "description": "تراش حرفه‌ای مناسب انواع مداد آرایشی",
+      "category": "makeup"
     },
     {
       "id": 54,
@@ -646,7 +699,8 @@
       "color": "مشکی",
       "layout-two": "cosmetic-tools",
       "layout-three": "lathe",
-      "description": "تراش کم‌جا و مناسب برای سفر"
+      "description": "تراش کم‌جا و مناسب برای سفر",
+      "category": "makeup"
     },
     {
       "id": 55,
@@ -658,7 +712,8 @@
       "color": "سفید",
       "layout-two": "cosmetic-tools",
       "layout-three": "makeup-mirror",
-      "description": "آینه چراغ‌دار با قابلیت تنظیم نور"
+      "description": "آینه چراغ‌دار با قابلیت تنظیم نور",
+      "category": "makeup"
     },
     {
       "id": 56,
@@ -670,7 +725,8 @@
       "color": "صورتی",
       "layout-two": "cosmetic-tools",
       "layout-three": "makeup-mirror",
-      "description": "آینه تاشو مناسب سفر"
+      "description": "آینه تاشو مناسب سفر",
+      "category": "makeup"
     },
     {
       "id": 57,
@@ -682,7 +738,8 @@
       "color": "طوسی",
       "layout-two": "cosmetic-tools",
       "layout-three": "makeup-mirror",
-      "description": "آینه رومیزی با قابلیت بزرگ‌نمایی"
+      "description": "آینه رومیزی با قابلیت بزرگ‌نمایی",
+      "category": "makeup"
     },
     {
       "id": 58,
@@ -694,7 +751,8 @@
       "color": "مشکی",
       "layout-two": "cosmetic-tools",
       "layout-three": "Makeup-brushes-and-brushes",
-      "description": "ست کامل براش برای آرایش صورت و چشم"
+      "description": "ست کامل براش برای آرایش صورت و چشم",
+      "category": "makeup"
     },
     {
       "id": 59,
@@ -706,7 +764,8 @@
       "color": "صورتی",
       "layout-two": "cosmetic-tools",
       "layout-three": "Makeup-brushes-and-brushes",
-      "description": "کیت براش جمع‌وجور مناسب سفر و استفاده روزانه"
+      "description": "کیت براش جمع‌وجور مناسب سفر و استفاده روزانه",
+      "category": "makeup"
     },
     {
       "id": 60,
@@ -718,7 +777,8 @@
       "color": "سفید",
       "layout-two": "cosmetic-tools",
       "layout-three": "Makeup-brushes-and-brushes",
-      "description": "مجموعه براش لاکچری برای آرایش حرفه‌ای"
+      "description": "مجموعه براش لاکچری برای آرایش حرفه‌ای",
+      "category": "makeup"
     }
   ]
 }

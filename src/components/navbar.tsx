@@ -19,6 +19,7 @@ export default function Navbar() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [isAdmin, setIsAdmin] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const [showProductsMenu, setShowProductsMenu] = useState(false);
 
   const menuRef = useRef(null);
   const pathname = usePathname();

@@ -23,6 +23,8 @@ export interface Product {
   "layout-two": string;
   "layout-three": string;
   description: string;
+  category: string;
+    sub: string[];
 }
 
 interface ProductProps {
@@ -219,6 +221,8 @@ const ProductComponent: React.FC<ProductProps> = ({ products }) => {
     // try sub slugs: create a simple slug for each sub and test
     outer: for (const s of sideCategories) {
       for (const sub of s.sub) {
+        if (typeof sub !== "string") continue; // فقط string ها را پردازش کن
+
         const subSlug = sub
           .replace(/\s+/g, "-")
           .normalize("NFKD")
@@ -267,62 +271,65 @@ const ProductComponent: React.FC<ProductProps> = ({ products }) => {
           </div>
 
           {/* Product Cards */}
+
           <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-8">
             {visibleProducts.map((prod) => (
-              <div
+              <Link
+                href={`/products/${prod.category}/${prod["layout-two"]}/${prod.id}`}
                 key={prod.id}
-                className="relative w-full h-[350px] rounded-3xl overflow-hidden shadow-lg cursor-pointer group bg-gray-800 border-2 transform transition-transform duration-300 hover:scale-105 hover:border-none"
               >
-                {/* Product Image */}
-                <div
-                  className="absolute top-0 w-full h-[70%] bg-cover bg-center transition-transform duration-300"
-                  style={{ backgroundImage: `url(${prod.url})` }}
-                ></div>
+                <div className="relative w-full h-[350px] rounded-3xl overflow-hidden shadow-lg cursor-pointer group bg-gray-800 border-2 transform transition-transform duration-300 hover:scale-105 hover:border-none">
+                  {/* Product Image */}
+                  <div
+                    className="absolute top-0 w-full h-[70%] bg-cover bg-center transition-transform duration-300"
+                    style={{ backgroundImage: `url(${prod.url})` }}
+                  ></div>
 
-                {/* Bottom */}
-                <div className="absolute bottom-0 w-full h-[30%]">
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#98626a] via-[#d18893] to-[#de98a2]" />
+                  {/* Bottom */}
+                  <div className="absolute bottom-0 w-full h-[30%]">
+                    <div className="absolute inset-0 bg-gradient-to-t from-[#98626a] via-[#d18893] to-[#de98a2]" />
 
-                  <div className="absolute inset-0 px-4 pb-3 flex flex-col justify-end text-right space-y-1">
-                    <button
-                      onClick={() => toggleLike(prod.id)}
-                      className="absolute top-3 left-3 z-20 text-xl"
-                    >
-                      <span
-                        className={`inline-block ${
-                          likedProducts[prod.id]
-                            ? "text-red-500 animate-heart-beat"
-                            : "text-white"
-                        }`}
+                    <div className="absolute inset-0 px-4 pb-3 flex flex-col justify-end text-right space-y-1">
+                      <button
+                        onClick={() => toggleLike(prod.id)}
+                        className="absolute top-3 left-3 z-20 text-xl"
                       >
-                        {likedProducts[prod.id] ? "❤️" : "🤍"}
-                      </span>
-                    </button>
-
-                    <div className="flex flex-col z-10">
-                      <h3 className="text-white font-bold text-[14px] line-clamp-1">
-                        {prod.name}
-                      </h3>
-                      <span className="text-gray-100 text-[12px]">
-                        {prod.brand} : برند
-                      </span>
-                    </div>
-
-                    <p className="text-gray-100 text-[11px] line-clamp-2 z-10">
-                      {prod.description}
-                    </p>
-
-                    <div className="flex items-center justify-between mt-1 z-10">
-                      <p className="text-gray-100 font-semibold text-[12px]">
-                        {prod.price} تومان
-                      </p>
-                      <button className="bg-white text-black px-3 py-1 rounded-full text-[11px] font-semibold hover:bg-gray-100">
-                        مشاهده جزئیات
+                        <span
+                          className={`inline-block ${
+                            likedProducts[prod.id]
+                              ? "text-red-500 animate-heart-beat"
+                              : "text-white"
+                          }`}
+                        >
+                          {likedProducts[prod.id] ? "❤️" : "🤍"}
+                        </span>
                       </button>
+
+                      <div className="flex flex-col z-10">
+                        <h3 className="text-white font-bold text-[14px] line-clamp-1">
+                          {prod.name}
+                        </h3>
+                        <span className="text-gray-100 text-[12px]">
+                          {prod.brand} : برند
+                        </span>
+                      </div>
+
+                      <p className="text-gray-100 text-[11px] line-clamp-2 z-10">
+                        {prod.description}
+                      </p>
+
+                      <div className="flex items-center justify-between mt-1 z-10">
+                        <p className="text-gray-100 font-semibold text-[12px]">
+                          {prod.price} تومان
+                        </p>
+                        <button className="bg-white text-black px-3 py-1 rounded-full text-[11px] font-semibold hover:bg-gray-100">
+                          مشاهده جزئیات
+                        </button>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
 
@@ -444,3 +451,5 @@ const ProductComponent: React.FC<ProductProps> = ({ products }) => {
 };
 
 export default ProductComponent;
+
+// <Link href={`/article/${article.id}`}>

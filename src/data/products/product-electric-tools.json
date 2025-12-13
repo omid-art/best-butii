@@ -10,7 +10,8 @@
       "color": "سیاه",
       "layout-two": "health-tool",
       "layout-three": "masseur",
-      "description": "ماساژور دستی برای تسکین درد پشت و گردن"
+      "description": "ماساژور دستی برای تسکین درد پشت و گردن",
+      "category": "electric-tools"
     },
     {
       "id": 2,
@@ -22,7 +23,8 @@
       "color": "سفید",
       "layout-two": "health-tool",
       "layout-three": "masseur",
-      "description": "ماساژور پا برای استراحت پاهای خسته"
+      "description": "ماساژور پا برای استراحت پاهای خسته",
+      "category": "electric-tools"
     },
     {
       "id": 3,
@@ -34,7 +36,8 @@
       "color": "خاکستری",
       "layout-two": "health-tool",
       "layout-three": "masseur",
-      "description": "ماساژور برقی برای عضلات گردن و شانه"
+      "description": "ماساژور برقی برای عضلات گردن و شانه",
+      "category": "electric-tools"
     },
     {
       "id": 4,
@@ -46,7 +49,8 @@
       "color": "سفید",
       "layout-two": "health-tool",
       "layout-three": "eat-machine",
-      "description": "دستگاه خوردن جمع و جور برای استفاده خانگی"
+      "description": "دستگاه خوردن جمع و جور برای استفاده خانگی",
+      "category": "electric-tools"
     },
     {
       "id": 5,
@@ -58,7 +62,8 @@
       "color": "سیاه",
       "layout-two": "health-tool",
       "layout-three": "eat-machine",
-      "description": "پردازشگر غذای برقی چندکاره"
+      "description": "پردازشگر غذای برقی چندکاره",
+      "category": "electric-tools"
     },
     {
       "id": 6,
@@ -70,7 +75,8 @@
       "color": "نقره‌ای",
       "layout-two": "health-tool",
       "layout-three": "eat-machine",
-      "description": "میکسر برای آشپزی بدون دردسر"
+      "description": "میکسر برای آشپزی بدون دردسر",
+      "category": "electric-tools"
     },
     {
       "id": 7,
@@ -82,7 +88,8 @@
       "color": "آبی",
       "layout-two": "health-tool",
       "layout-three": "electric-toothbrush",
-      "description": "مسواک شارژی برای مراقبت روزانه دندان‌ها"
+      "description": "مسواک شارژی برای مراقبت روزانه دندان‌ها",
+      "category": "electric-tools"
     },
     {
       "id": 8,
@@ -94,7 +101,8 @@
       "color": "سفید",
       "layout-two": "health-tool",
       "layout-three": "electric-toothbrush",
-      "description": "مسواک سونیک برای تمیز کردن عمیق دندان‌ها"
+      "description": "مسواک سونیک برای تمیز کردن عمیق دندان‌ها",
+      "category": "electric-tools"
     },
     {
       "id": 9,
@@ -106,7 +114,8 @@
       "color": "سبز",
       "layout-two": "health-tool",
       "layout-three": "electric-toothbrush",
-      "description": "مسواک برقی جمع و جور برای سفر"
+      "description": "مسواک برقی جمع و جور برای سفر",
+      "category": "electric-tools"
     },
     {
       "id": 10,
@@ -118,7 +127,8 @@
       "color": "سفید",
       "layout-two": "health-tool",
       "layout-three": "medical-pillow",
-      "description": "بالش ارگونومیک برای حمایت از گردن و پشت"
+      "description": "بالش ارگونومیک برای حمایت از گردن و پشت",
+      "category": "electric-tools"
     },
     {
       "id": 11,
@@ -130,7 +140,8 @@
       "color": "آبی",
       "layout-two": "health-tool",
       "layout-three": "medical-pillow",
-      "description": "بالش قابل تنظیم برای راحتی بهینه"
+      "description": "بالش قابل تنظیم برای راحتی بهینه",
+      "category": "electric-tools"
     },
     {
       "id": 12,
@@ -142,7 +153,8 @@
       "color": "خاکستری",
       "layout-two": "health-tool",
       "layout-three": "medical-pillow",
-      "description": "بالش ژل خنک برای کاهش فشار گردن"
+      "description": "بالش ژل خنک برای کاهش فشار گردن",
+      "category": "electric-tools"
     },
     {
       "id": 13,
@@ -154,7 +166,8 @@
       "color": "سیاه",
       "layout-two": "electric-hair-tool",
       "layout-three": "hair-dryer",
-      "description": "سشوار قدرتمند برای خشک کردن سریع مو"
+      "description": "سشوار قدرتمند برای خشک کردن سریع مو",
+      "category": "electric-tools"
     },
     {
       "id": 14,
@@ -166,7 +179,8 @@
       "color": "سفید",
       "layout-two": "electric-hair-tool",
       "layout-three": "hair-dryer",
-      "description": "سشوار قابل حمل مناسب برای سفر"
+      "description": "سشوار قابل حمل مناسب برای سفر",
+      "category": "electric-tools"
     },
     {
       "id": 15,
@@ -178,7 +192,8 @@
       "color": "صورتی",
       "layout-two": "electric-hair-tool",
       "layout-three": "hair-dryer",
-      "description": "کاهش وز مو و افزایش درخشندگی با تکنولوژی یونی"
+      "description": "کاهش وز مو و افزایش درخشندگی با تکنولوژی یونی",
+      "category": "electric-tools"
     },
     {
       "id": 16,
@@ -190,7 +205,8 @@
       "color": "سیاه",
       "layout-two": "electric-hair-tool",
       "layout-three": "hair-iron",
-      "description": "اتو مو سرامیکی برای موهای صاف و یکدست"
+      "description": "اتو مو سرامیکی برای موهای صاف و یکدست",
+      "category": "electric-tools"
     },
     {
       "id": 17,
@@ -202,7 +218,8 @@
       "color": "نقره‌ای",
       "layout-two": "electric-hair-tool",
       "layout-three": "hair-iron",
-      "description": "صفحات تیتانیوم برای حالت‌دهی سریع و دوام بالا"
+      "description": "صفحات تیتانیوم برای حالت‌دهی سریع و دوام بالا",
+      "category": "electric-tools"
     },
     {
       "id": 18,
@@ -214,7 +231,8 @@
       "color": "صورتی",
       "layout-two": "electric-hair-tool",
       "layout-three": "hair-iron",
-      "description": "اتو جمع و جور برای بخش‌های کوچک و سفر"
+      "description": "اتو جمع و جور برای بخش‌های کوچک و سفر",
+      "category": "electric-tools"
     },
     {
       "id": 19,
@@ -226,7 +244,8 @@
       "color": "سیاه",
       "layout-two": "electric-hair-tool",
       "layout-three": "Thermal-brush",
-      "description": "برس حرارتی برای حالت دادن صاف و یکدست موها"
+      "description": "برس حرارتی برای حالت دادن صاف و یکدست موها",
+      "category": "electric-tools"
     },
     {
       "id": 20,
@@ -238,7 +257,8 @@
       "color": "سفید",
       "layout-two": "electric-hair-tool",
       "layout-three": "Thermal-brush",
-      "description": "پوشش سرامیکی برای توزیع یکنواخت حرارت"
+      "description": "پوشش سرامیکی برای توزیع یکنواخت حرارت",
+      "category": "electric-tools"
     },
     {
       "id": 21,
@@ -250,7 +270,8 @@
       "color": "آبی",
       "layout-two": "electric-hair-tool",
       "layout-three": "Thermal-brush",
-      "description": "برسی برای حجم دادن هنگام حالت دادن مو"
+      "description": "برسی برای حجم دادن هنگام حالت دادن مو",
+      "category": "electric-tools"
     },
     {
       "id": 22,
@@ -262,7 +283,8 @@
       "color": "صورتی",
       "layout-two": "electric-hair-tool",
       "layout-three": "Hair-curler-and-styler",
-      "description": "فرکننده مو با پوشش سرامیکی برای فرهای صاف"
+      "description": "فرکننده مو با پوشش سرامیکی برای فرهای صاف",
+      "category": "electric-tools"
     },
     {
       "id": 23,
@@ -274,7 +296,8 @@
       "color": "سفید",
       "layout-two": "electric-hair-tool",
       "layout-three": "Hair-curler-and-styler",
-      "description": "ابزار فرکننده اتوماتیک برای فرهای آسان"
+      "description": "ابزار فرکننده اتوماتیک برای فرهای آسان",
+      "category": "electric-tools"
     },
     {
       "id": 24,
@@ -286,7 +309,8 @@
       "color": "سیاه",
       "layout-two": "electric-hair-tool",
       "layout-three": "Hair-curler-and-styler",
-      "description": "استایلری چندمنظوره برای فر، صاف کردن و موج دادن"
+      "description": "استایلری چندمنظوره برای فر، صاف کردن و موج دادن",
+      "category": "electric-tools"
     },
     {
       "id": 25,
@@ -298,7 +322,8 @@
       "color": "سیاه",
       "layout-two": "correction-tool",
       "layout-three": "shaver",
-      "description": "ماشین اصلاح دقیق برای اصلاح صاف"
+      "description": "ماشین اصلاح دقیق برای اصلاح صاف",
+      "category": "electric-tools"
     },
     {
       "id": 26,
@@ -310,7 +335,8 @@
       "color": "خاکستری",
       "layout-two": "correction-tool",
       "layout-three": "shaver",
-      "description": "ماشین اصلاح جمع و جور مناسب برای سفر"
+      "description": "ماشین اصلاح جمع و جور مناسب برای سفر",
+      "category": "electric-tools"
     },
     {
       "id": 27,
@@ -322,7 +348,8 @@
       "color": "نقره‌ای",
       "layout-two": "correction-tool",
       "layout-three": "shaver",
-      "description": "ماشین اصلاح ضد آب برای استفاده در شرایط مرطوب یا خشک"
+      "description": "ماشین اصلاح ضد آب برای استفاده در شرایط مرطوب یا خشک",
+      "category": "electric-tools"
     },
     {
       "id": 28,
@@ -334,7 +361,8 @@
       "color": "سیاه",
       "layout-two": "correction-tool",
       "layout-three": "Body-and-head-massage-machine",
-      "description": "دستگاه ماساژ برای استراحت بدن و سر"
+      "description": "دستگاه ماساژ برای استراحت بدن و سر",
+      "category": "electric-tools"
     },
     {
       "id": 29,
@@ -346,7 +374,8 @@
       "color": "خاکستری",
       "layout-two": "correction-tool",
       "layout-three": "Body-and-head-massage-machine",
-      "description": "متمرکز بر عضلات گردن و شانه برای تسکین درد"
+      "description": "متمرکز بر عضلات گردن و شانه برای تسکین درد",
+      "category": "electric-tools"
     },
     {
       "id": 30,
@@ -358,7 +387,8 @@
       "color": "سفید",
       "layout-two": "correction-tool",
       "layout-three": "Body-and-head-massage-machine",
-      "description": "دستگاه ماساژ قابل حمل برای راحتی کل بدن"
+      "description": "دستگاه ماساژ قابل حمل برای راحتی کل بدن",
+      "category": "electric-tools"
     },
     {
       "id": 31,
@@ -370,7 +400,8 @@
       "color": "سفید",
       "layout-two": "electric-care-tool",
       "layout-three": "face-brush",
-      "description": "برس چرخشی صورت برای پاکسازی عمیق"
+      "description": "برس چرخشی صورت برای پاکسازی عمیق",
+      "category": "electric-tools"
     },
     {
       "id": 32,
@@ -382,7 +413,8 @@
       "color": "صورتی",
       "layout-two": "electric-care-tool",
       "layout-three": "face-brush",
-      "description": "برس سیلیکونی ملایم برای پوست حساس"
+      "description": "برس سیلیکونی ملایم برای پوست حساس",
+      "category": "electric-tools"
     },
     {
       "id": 33,
@@ -394,7 +426,8 @@
       "color": "آبی",
       "layout-two": "electric-care-tool",
       "layout-three": "face-brush",
-      "description": "برس شارژی برای پاکسازی روزانه آسان"
+      "description": "برس شارژی برای پاکسازی روزانه آسان",
+      "category": "electric-tools"
     },
     {
       "id": 34,
@@ -406,7 +439,8 @@
       "color": "سفید",
       "layout-two": "electric-care-tool",
       "layout-three": "Face-lift-device",
-      "description": "دستگاه LED برای لیفت و سفت کردن صورت"
+      "description": "دستگاه LED برای لیفت و سفت کردن صورت",
+      "category": "electric-tools"
     },
     {
       "id": 35,
@@ -418,7 +452,8 @@
       "color": "صورتی",
       "layout-two": "electric-care-tool",
       "layout-three": "Face-lift-device",
-      "description": "دستگاه اولتراسونیک برای سفت کردن پوست"
+      "description": "دستگاه اولتراسونیک برای سفت کردن پوست",
+      "category": "electric-tools"
     },
     {
       "id": 36,
@@ -430,7 +465,8 @@
       "color": "نقره‌ای",
       "layout-two": "electric-care-tool",
       "layout-three": "Face-lift-device",
-      "description": "تکنولوژی میکروکارنت برای تقویت عضلات صورت"
+      "description": "تکنولوژی میکروکارنت برای تقویت عضلات صورت",
+      "category": "electric-tools"
     }
   ]
 }

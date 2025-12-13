@@ -10,7 +10,8 @@
       "color": "سفید",
       "layout-two": "shampoo",
       "layout-three": "dry-shampoo",
-      "description": "موها را بدون آب تازه می‌کند و چربی را جذب می‌کند"
+      "description": "موها را بدون آب تازه می‌کند و چربی را جذب می‌کند",
+      "category": "hair-care-beauty"
     },
     {
       "id": 2,
@@ -22,7 +23,8 @@
       "color": "خاکستری",
       "layout-two": "shampoo",
       "layout-three": "dry-shampoo",
-      "description": "شامپو خشک مخصوص موهای تیره"
+      "description": "شامپو خشک مخصوص موهای تیره",
+      "category": "hair-care-beauty"
     },
     {
       "id": 3,
@@ -34,7 +36,8 @@
       "color": "بژ روشن",
       "layout-two": "shampoo",
       "layout-three": "dry-shampoo",
-      "description": "افزایش حجم و تازگی فوری موها"
+      "description": "افزایش حجم و تازگی فوری موها",
+      "category": "hair-care-beauty"
     },
     {
       "id": 4,
@@ -46,7 +49,8 @@
       "color": "طلایی",
       "layout-two": "shampoo",
       "layout-three": "Keratin-shampoo",
-      "description": "موهای آسیب‌دیده را با کراتین ترمیم و تقویت می‌کند"
+      "description": "موهای آسیب‌دیده را با کراتین ترمیم و تقویت می‌کند",
+      "category": "hair-care-beauty"
     },
     {
       "id": 5,
@@ -58,7 +62,8 @@
       "color": "زرد روشن",
       "layout-two": "shampoo",
       "layout-three": "Keratin-shampoo",
-      "description": "موها را صاف می‌کند و وز آنها را کاهش می‌دهد"
+      "description": "موها را صاف می‌کند و وز آنها را کاهش می‌دهد",
+      "category": "hair-care-beauty"
     },
     {
       "id": 6,
@@ -70,7 +75,8 @@
       "color": "شفاف",
       "layout-two": "shampoo",
       "layout-three": "Keratin-shampoo",
-      "description": "درخشش و انعطاف‌پذیری موها را افزایش می‌دهد"
+      "description": "درخشش و انعطاف‌پذیری موها را افزایش می‌دهد",
+      "category": "hair-care-beauty"
     },
     {
       "id": 7,
@@ -82,7 +88,8 @@
       "color": "سبز",
       "layout-two": "shampoo",
       "layout-three": "oily-hair-shampoo",
-      "description": "چربی اضافی را کنترل و موها را تازه نگه می‌دارد"
+      "description": "چربی اضافی را کنترل و موها را تازه نگه می‌دارد",
+      "category": "hair-care-beauty"
     },
     {
       "id": 8,
@@ -94,7 +101,8 @@
       "color": "آبی",
       "layout-two": "shampoo",
       "layout-three": "oily-hair-shampoo",
-      "description": "پوست سر را تصفیه و چربی را کاهش می‌دهد"
+      "description": "پوست سر را تصفیه و چربی را کاهش می‌دهد",
+      "category": "hair-care-beauty"
     },
     {
       "id": 9,
@@ -106,7 +114,8 @@
       "color": "آبی روشن",
       "layout-two": "shampoo",
       "layout-three": "oily-hair-shampoo",
-      "description": "موهای چرب را تازه و متعادل می‌کند"
+      "description": "موهای چرب را تازه و متعادل می‌کند",
+      "category": "hair-care-beauty"
     },
     {
       "id": 10,
@@ -118,7 +127,8 @@
       "color": "سفید",
       "layout-two": "shampoo",
       "layout-three": "Anti-dandruff-shampoo",
-      "description": "از شوره جلوگیری و پوست سر را آرام می‌کند"
+      "description": "از شوره جلوگیری و پوست سر را آرام می‌کند",
+      "category": "hair-care-beauty"
     },
     {
       "id": 11,
@@ -130,7 +140,8 @@
       "color": "سبز",
       "layout-two": "shampoo",
       "layout-three": "Anti-dandruff-shampoo",
-      "description": "فرمول درخت چای برای کاهش شوره و خارش"
+      "description": "فرمول درخت چای برای کاهش شوره و خارش",
+      "category": "hair-care-beauty"
     },
     {
       "id": 12,
@@ -142,7 +153,8 @@
       "color": "آبی",
       "layout-two": "shampoo",
       "layout-three": "Anti-dandruff-shampoo",
-      "description": "پوست سر را تازه نگه می‌دارد و شوره را کاهش می‌دهد"
+      "description": "پوست سر را تازه نگه می‌دارد و شوره را کاهش می‌دهد",
+      "category": "hair-care-beauty"
     },
     {
       "id": 13,
@@ -154,7 +166,8 @@
       "color": "شفاف",
       "layout-two": "hair-beauty",
       "layout-three": "hair-gel",
-      "description": "ژل با نگه‌داشت قوی برای حالت‌دهی مو"
+      "description": "ژل با نگه‌داشت قوی برای حالت‌دهی مو",
+      "category": "hair-care-beauty"
     },
     {
       "id": 14,
@@ -166,7 +179,8 @@
       "color": "آبی",
       "layout-two": "hair-beauty",
       "layout-three": "hair-gel",
-      "description": "ژل برای حالت‌دهی انعطاف‌پذیر و درخشش مو"
+      "description": "ژل برای حالت‌دهی انعطاف‌پذیر و درخشش مو",
+      "category": "hair-care-beauty"
     },
     {
       "id": 15,
@@ -178,7 +192,8 @@
       "color": "قهوه‌ای روشن",
       "layout-two": "hair-beauty",
       "layout-three": "hair-gel",
-      "description": "ژل غیر چسبنده برای ظاهر طبیعی"
+      "description": "ژل غیر چسبنده برای ظاهر طبیعی",
+      "category": "hair-care-beauty"
     },
     {
       "id": 16,
@@ -190,7 +205,8 @@
       "color": "شفاف",
       "layout-two": "hair-beauty",
       "layout-three": "hair-spray",
-      "description": "اسپری مو برای حجم و نگه‌داشت طولانی مدت"
+      "description": "اسپری مو برای حجم و نگه‌داشت طولانی مدت",
+      "category": "hair-care-beauty"
     },
     {
       "id": 17,
@@ -202,7 +218,8 @@
       "color": "طلایی",
       "layout-two": "hair-beauty",
       "layout-three": "hair-spray",
-      "description": "درخشش مو را افزایش می‌دهد و آنها را سر جای خود نگه می‌دارد"
+      "description": "درخشش مو را افزایش می‌دهد و آنها را سر جای خود نگه می‌دارد",
+      "category": "hair-care-beauty"
     },
     {
       "id": 18,
@@ -214,7 +231,8 @@
       "color": "آبی روشن",
       "layout-two": "hair-beauty",
       "layout-three": "hair-spray",
-      "description": "اسپری نگه‌داشت قوی برای حالت‌دهی تمام روز"
+      "description": "اسپری نگه‌داشت قوی برای حالت‌دهی تمام روز",
+      "category": "hair-care-beauty"
     },
     {
       "id": 19,
@@ -226,7 +244,8 @@
       "color": "بژ",
       "layout-two": "hair-beauty",
       "layout-three": "hair-wax",
-      "description": "واکس با پایان مات برای مدل‌های بافت‌دار مو"
+      "description": "واکس با پایان مات برای مدل‌های بافت‌دار مو",
+      "category": "hair-care-beauty"
     },
     {
       "id": 20,
@@ -238,7 +257,8 @@
       "color": "قهوه‌ای",
       "layout-two": "hair-beauty",
       "layout-three": "hair-wax",
-      "description": "واکس قوی برای نگه‌داشت طولانی مدت"
+      "description": "واکس قوی برای نگه‌داشت طولانی مدت",
+      "category": "hair-care-beauty"
     },
     {
       "id": 21,
@@ -250,7 +270,8 @@
       "color": "قهوه‌ای روشن",
       "layout-two": "hair-beauty",
       "layout-three": "hair-wax",
-      "description": "واکس انعطاف‌پذیر برای ظاهر طبیعی"
+      "description": "واکس انعطاف‌پذیر برای ظاهر طبیعی",
+      "category": "hair-care-beauty"
     },
     {
       "id": 22,
@@ -262,7 +283,8 @@
       "color": "مشکی",
       "layout-two": "hair-beauty",
       "layout-three": "hair-color",
-      "description": "رنگ موی دائم با ماندگاری طولانی"
+      "description": "رنگ موی دائم با ماندگاری طولانی",
+      "category": "hair-care-beauty"
     },
     {
       "id": 23,
@@ -274,7 +296,8 @@
       "color": "قهوه‌ای",
       "layout-two": "hair-beauty",
       "layout-three": "hair-color",
-      "description": "رنگ نیمه‌دائم برای تغییرات ملایم"
+      "description": "رنگ نیمه‌دائم برای تغییرات ملایم",
+      "category": "hair-care-beauty"
     },
     {
       "id": 24,
@@ -286,7 +309,8 @@
       "color": "قرمز",
       "layout-two": "hair-beauty",
       "layout-three": "hair-color",
-      "description": "رنگ درخشان برای سبک‌های جسورانه"
+      "description": "رنگ درخشان برای سبک‌های جسورانه",
+      "category": "hair-care-beauty"
     },
     {
       "id": 25,
@@ -298,7 +322,8 @@
       "color": "سفید",
       "layout-two": "hair-care",
       "layout-three": "hair-mask",
-      "description": "ماسک ترمیم عمیق برای موهای آسیب‌دیده"
+      "description": "ماسک ترمیم عمیق برای موهای آسیب‌دیده",
+      "category": "hair-care-beauty"
     },
     {
       "id": 26,
@@ -310,7 +335,8 @@
       "color": "آبی روشن",
       "layout-two": "hair-care",
       "layout-three": "hair-mask",
-      "description": "موهای خشک را مرطوب و تغذیه می‌کند"
+      "description": "موهای خشک را مرطوب و تغذیه می‌کند",
+      "category": "hair-care-beauty"
     },
     {
       "id": 27,
@@ -322,7 +348,8 @@
       "color": "صورتی",
       "layout-two": "hair-care",
       "layout-three": "hair-mask",
-      "description": "موها را تقویت و از شکستگی جلوگیری می‌کند"
+      "description": "موها را تقویت و از شکستگی جلوگیری می‌کند",
+      "category": "hair-care-beauty"
     },
     {
       "id": 28,
@@ -334,7 +361,8 @@
       "color": "زرد",
       "layout-two": "hair-care",
       "layout-three": "hair-oil",
-      "description": "روغن برای تغذیه عمیق و نرم کردن مو"
+      "description": "روغن برای تغذیه عمیق و نرم کردن مو",
+      "category": "hair-care-beauty"
     },
     {
       "id": 29,
@@ -346,7 +374,8 @@
       "color": "طلایی",
       "layout-two": "hair-care",
       "layout-three": "hair-oil",
-      "description": "روغن آرگان برای موهای درخشان و سالم"
+      "description": "روغن آرگان برای موهای درخشان و سالم",
+      "category": "hair-care-beauty"
     },
     {
       "id": 30,
@@ -358,7 +387,8 @@
       "color": "شفاف",
       "layout-two": "hair-care",
       "layout-three": "hair-oil",
-      "description": "روغن نارگیل برای موهای نرم و قابل کنترل"
+      "description": "روغن نارگیل برای موهای نرم و قابل کنترل",
+      "category": "hair-care-beauty"
     },
     {
       "id": 31,
@@ -370,7 +400,8 @@
       "color": "شفاف",
       "layout-two": "hair-care",
       "layout-three": "Hair-serum",
-      "description": "سرم برای موهای درخشان و نرم"
+      "description": "سرم برای موهای درخشان و نرم",
+      "category": "hair-care-beauty"
     },
     {
       "id": 32,
@@ -382,7 +413,8 @@
       "color": "زرد روشن",
       "layout-two": "hair-care",
       "layout-three": "Hair-serum",
-      "description": "وز مو را کاهش و موهای پراکنده را کنترل می‌کند"
+      "description": "وز مو را کاهش و موهای پراکنده را کنترل می‌کند",
+      "category": "hair-care-beauty"
     },
     {
       "id": 33,
@@ -394,7 +426,8 @@
       "color": "آبی روشن",
       "layout-two": "hair-care",
       "layout-three": "Hair-serum",
-      "description": "سرم برای ترمیم نوک‌های آسیب‌دیده مو"
+      "description": "سرم برای ترمیم نوک‌های آسیب‌دیده مو",
+      "category": "hair-care-beauty"
     },
     {
       "id": 34,
@@ -406,7 +439,8 @@
       "color": "سفید",
       "layout-two": "hair-care",
       "layout-three": "Hair-conditioner",
-      "description": "نرم‌کننده برای مرطوب و نرم کردن مو"
+      "description": "نرم‌کننده برای مرطوب و نرم کردن مو",
+      "category": "hair-care-beauty"
     },
     {
       "id": 35,
@@ -418,7 +452,8 @@
       "color": "طلایی",
       "layout-two": "hair-care",
       "layout-three": "Hair-conditioner",
-      "description": "فرمول کراتین برای صاف کردن مو و کاهش وز"
+      "description": "فرمول کراتین برای صاف کردن مو و کاهش وز",
+      "category": "hair-care-beauty"
     },
     {
       "id": 36,
@@ -430,7 +465,8 @@
       "color": "قهوه‌ای روشن",
       "layout-two": "hair-care",
       "layout-three": "Hair-conditioner",
-      "description": "موهای آسیب‌دیده را ترمیم و تقویت می‌کند"
+      "description": "موهای آسیب‌دیده را ترمیم و تقویت می‌کند",
+      "category": "hair-care-beauty"
     },
     {
       "id": 37,
@@ -442,7 +478,8 @@
       "color": "مشکی",
       "layout-two": "hair-tools",
       "layout-three": "Hair-brush-and-comb",
-      "description": "ست برس و شانه برای همه نوع مو"
+      "description": "ست برس و شانه برای همه نوع مو",
+      "category": "hair-care-beauty"
     },
     {
       "id": 38,
@@ -454,7 +491,8 @@
       "color": "صورتی",
       "layout-two": "hair-tools",
       "layout-three": "Hair-brush-and-comb",
-      "description": "برس برای باز کردن آسان گره‌ها بدون آسیب"
+      "description": "برس برای باز کردن آسان گره‌ها بدون آسیب",
+      "category": "hair-care-beauty"
     },
     {
       "id": 39,
@@ -466,7 +504,8 @@
       "color": "سفید",
       "layout-two": "hair-tools",
       "layout-three": "Hair-brush-and-comb",
-      "description": "برس گرد برای حالت‌دهی و حجم مو"
+      "description": "برس گرد برای حالت‌دهی و حجم مو",
+      "category": "hair-care-beauty"
     },
     {
       "id": 40,
@@ -478,7 +517,8 @@
       "color": "مشکی",
       "layout-two": "hair-tools",
       "layout-three": "Hair-color-tool",
-      "description": "برس برای اعمال دقیق رنگ مو"
+      "description": "برس برای اعمال دقیق رنگ مو",
+      "category": "hair-care-beauty"
     },
     {
       "id": 41,
@@ -490,7 +530,8 @@
       "color": "سفید",
       "layout-two": "hair-tools",
       "layout-three": "Hair-color-tool",
-      "description": "کاسه‌های ترکیب برای رنگ کردن حرفه‌ای مو"
+      "description": "کاسه‌های ترکیب برای رنگ کردن حرفه‌ای مو",
+      "category": "hair-care-beauty"
     },
     {
       "id": 42,
@@ -502,7 +543,8 @@
       "color": "آبی",
       "layout-two": "hair-tools",
       "layout-three": "Hair-color-tool",
-      "description": "کیت برای اعمال یکنواخت رنگ مو"
+      "description": "کیت برای اعمال یکنواخت رنگ مو",
+      "category": "hair-care-beauty"
     },
     {
       "id": 43,
@@ -514,7 +556,8 @@
       "color": "نقره‌ای",
       "layout-two": "hair-tools",
       "layout-three": "Hair-cutting-tools",
-      "description": "قیچی با کیفیت بالا برای برش دقیق مو"
+      "description": "قیچی با کیفیت بالا برای برش دقیق مو",
+      "category": "hair-care-beauty"
     },
     {
       "id": 44,
@@ -526,7 +569,8 @@
       "color": "مشکی",
       "layout-two": "hair-tools",
       "layout-three": "Hair-cutting-tools",
-      "description": "ست شانه برای اصلاح دقیق مو"
+      "description": "ست شانه برای اصلاح دقیق مو",
+      "category": "hair-care-beauty"
     },
     {
       "id": 45,
@@ -538,7 +582,8 @@
       "color": "آبی",
       "layout-two": "hair-tools",
       "layout-three": "Hair-cutting-tools",
-      "description": "پیش‌بند برای محافظت از لباس هنگام اصلاح مو"
+      "description": "پیش‌بند برای محافظت از لباس هنگام اصلاح مو",
+      "category": "hair-care-beauty"
     }
   ]
 }

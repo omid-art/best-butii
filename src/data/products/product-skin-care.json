@@ -10,7 +10,8 @@
       "color": "سفید",
       "layout-two": "facial-care",
       "layout-three": "sunscreen",
-      "description": "ضد آفتاب با SPF50 مناسب استفاده روزانه"
+      "description": "ضد آفتاب با SPF50 مناسب استفاده روزانه",
+      "category": "skin-care"
     },
     {
       "id": 2,
@@ -22,7 +23,8 @@
       "color": "شفاف",
       "layout-two": "facial-care",
       "layout-three": "sunscreen",
-      "description": "ضد آفتاب سبک SPF30، مناسب برای پوست چرب"
+      "description": "ضد آفتاب سبک SPF30، مناسب برای پوست چرب",
+      "category": "skin-care"
     },
     {
       "id": 3,
@@ -34,7 +36,8 @@
       "color": "کرم",
       "layout-two": "facial-care",
       "layout-three": "sunscreen",
-      "description": "ضد آفتاب SPF50+ با خواص ضد پیری"
+      "description": "ضد آفتاب SPF50+ با خواص ضد پیری",
+      "category": "skin-care"
     },
     {
       "id": 4,
@@ -46,7 +49,8 @@
       "color": "سبز",
       "layout-two": "facial-care",
       "layout-three": "face-mask",
-      "description": "ماسک آبرسان برای پوستی نرم و لطیف"
+      "description": "ماسک آبرسان برای پوستی نرم و لطیف",
+      "category": "skin-care"
     },
     {
       "id": 5,
@@ -58,7 +62,8 @@
       "color": "مشکی",
       "layout-two": "facial-care",
       "layout-three": "face-mask",
-      "description": "ماسک زغالی برای سم‌زدایی و پاکسازی پوست"
+      "description": "ماسک زغالی برای سم‌زدایی و پاکسازی پوست",
+      "category": "skin-care"
     },
     {
       "id": 6,
@@ -70,7 +75,8 @@
       "color": "نارنجی",
       "layout-two": "facial-care",
       "layout-three": "face-mask",
-      "description": "ماسک ویتامین C برای پوستی روشن و درخشان"
+      "description": "ماسک ویتامین C برای پوستی روشن و درخشان",
+      "category": "skin-care"
     },
     {
       "id": 7,
@@ -82,7 +88,8 @@
       "color": "شفاف",
       "layout-two": "facial-care",
       "layout-three": "Anti-wrinkle",
-      "description": "سرم کاهش خطوط ریز و چین و چروک"
+      "description": "سرم کاهش خطوط ریز و چین و چروک",
+      "category": "skin-care"
     },
     {
       "id": 8,
@@ -94,7 +101,8 @@
       "color": "سفید",
       "layout-two": "facial-care",
       "layout-three": "Anti-wrinkle",
-      "description": "کرم مرطوب‌کننده با اثر ضد پیری"
+      "description": "کرم مرطوب‌کننده با اثر ضد پیری",
+      "category": "skin-care"
     },
     {
       "id": 9,
@@ -106,7 +114,8 @@
       "color": "بژ روشن",
       "layout-two": "facial-care",
       "layout-three": "Anti-wrinkle",
-      "description": "کرم دور چشم برای کاهش چین‌وچروک اطراف چشم"
+      "description": "کرم دور چشم برای کاهش چین‌وچروک اطراف چشم",
+      "category": "skin-care"
     },
     {
       "id": 10,
@@ -118,7 +127,8 @@
       "color": "آبی روشن",
       "layout-two": "facial-care",
       "layout-three": "anti-swelling",
-      "description": "ژل برای کاهش پف و تورم اطراف چشم"
+      "description": "ژل برای کاهش پف و تورم اطراف چشم",
+      "category": "skin-care"
     },
     {
       "id": 11,
@@ -130,7 +140,8 @@
       "color": "سفید",
       "layout-two": "facial-care",
       "layout-three": "anti-swelling",
-      "description": "کرم خنک‌کننده برای کاهش ورم و قرمزی پوست"
+      "description": "کرم خنک‌کننده برای کاهش ورم و قرمزی پوست",
+      "category": "skin-care"
     },
     {
       "id": 12,
@@ -142,7 +153,8 @@
       "color": "سبز",
       "layout-two": "facial-care",
       "layout-three": "anti-swelling",
-      "description": "سرم برای آرام‌سازی پوست و کاهش التهاب"
+      "description": "سرم برای آرام‌سازی پوست و کاهش التهاب",
+      "category": "skin-care"
     },
     {
       "id": 13,
@@ -154,7 +166,8 @@
       "color": "سفید",
       "layout-two": "the-cleaner",
       "layout-three": "face-wash",
-      "description": "شوینده ملایم روزانه برای رفع چربی و آلودگی"
+      "description": "شوینده ملایم روزانه برای رفع چربی و آلودگی",
+      "category": "skin-care"
     },
     {
       "id": 14,
@@ -166,7 +179,8 @@
       "color": "آبی",
       "layout-two": "the-cleaner",
       "layout-three": "face-wash",
-      "description": "فیس واش فوم‌دار مناسب پوست‌های چرب و مختلط"
+      "description": "فیس واش فوم‌دار مناسب پوست‌های چرب و مختلط",
+      "category": "skin-care"
     },
     {
       "id": 15,
@@ -178,7 +192,8 @@
       "color": "سبز",
       "layout-two": "the-cleaner",
       "layout-three": "face-wash",
-      "description": "فیس واش آبرسان مناسب پوست خشک"
+      "description": "فیس واش آبرسان مناسب پوست خشک",
+      "category": "skin-care"
     },
     {
       "id": 16,
@@ -190,7 +205,8 @@
       "color": "صورتی",
       "layout-two": "the-cleaner",
       "layout-three": "Toner",
-      "description": "تونر شاداب‌کننده برای تنظیم pH و جمع‌کردن منافذ"
+      "description": "تونر شاداب‌کننده برای تنظیم pH و جمع‌کردن منافذ",
+      "category": "skin-care"
     },
     {
       "id": 17,
@@ -202,7 +218,8 @@
       "color": "سبز",
       "layout-two": "the-cleaner",
       "layout-three": "Toner",
-      "description": "تونر آلوئه‌ورا برای آرام‌سازی پوست حساس"
+      "description": "تونر آلوئه‌ورا برای آرام‌سازی پوست حساس",
+      "category": "skin-care"
     },
     {
       "id": 18,
@@ -214,7 +231,8 @@
       "color": "آبی",
       "layout-two": "the-cleaner",
       "layout-three": "Toner",
-      "description": "تونر آبرسان برای پوستی لطیف و تازه"
+      "description": "تونر آبرسان برای پوستی لطیف و تازه",
+      "category": "skin-care"
     },
     {
       "id": 19,
@@ -226,7 +244,8 @@
       "color": "شفاف",
       "layout-two": "the-cleaner",
       "layout-three": "Facial-makeup-remover",
-      "description": "پاک‌کننده ملایم مناسب انواع پوست"
+      "description": "پاک‌کننده ملایم مناسب انواع پوست",
+      "category": "skin-care"
     },
     {
       "id": 20,
@@ -238,7 +257,8 @@
       "color": "زرد روشن",
       "layout-two": "the-cleaner",
       "layout-three": "Facial-makeup-remover",
-      "description": "پاک‌کننده آرایش بدون ایجاد اثر چربی"
+      "description": "پاک‌کننده آرایش بدون ایجاد اثر چربی",
+      "category": "skin-care"
     },
     {
       "id": 21,
@@ -250,7 +270,8 @@
       "color": "شفاف",
       "layout-two": "the-cleaner",
       "layout-three": "Facial-makeup-remover",
-      "description": "آب میسلار برای پاکسازی ملایم و عمیق پوست"
+      "description": "آب میسلار برای پاکسازی ملایم و عمیق پوست",
+      "category": "skin-care"
     },
     {
       "id": 22,
@@ -262,7 +283,8 @@
       "color": "سبز",
       "layout-two": "the-cleaner",
       "layout-three": "Wet-wipes",
-      "description": "دستمال مرطوب با آلوئه‌ورا برای پاکسازی ملایم"
+      "description": "دستمال مرطوب با آلوئه‌ورا برای پاکسازی ملایم",
+      "category": "skin-care"
     },
     {
       "id": 23,
@@ -274,7 +296,8 @@
       "color": "سفید",
       "layout-two": "the-cleaner",
       "layout-three": "Wet-wipes",
-      "description": "دستمال مرطوب مناسب پوست حساس، بدون الکل"
+      "description": "دستمال مرطوب مناسب پوست حساس، بدون الکل",
+      "category": "skin-care"
     },
     {
       "id": 24,
@@ -286,7 +309,8 @@
       "color": "آبی",
       "layout-two": "the-cleaner",
       "layout-three": "Wet-wipes",
-      "description": "دستمال مرطوب شاداب‌کننده برای پاکسازی سریع آرایش"
+      "description": "دستمال مرطوب شاداب‌کننده برای پاکسازی سریع آرایش",
+      "category": "skin-care"
     },
     {
       "id": 25,
@@ -298,7 +322,8 @@
       "color": "شفاف",
       "layout-two": "eyebrow-eye-care",
       "layout-three": "Eyelash-and-eyebrow-enhancement",
-      "description": "سرم برای تقویت رشد مژه و ابرو"
+      "description": "سرم برای تقویت رشد مژه و ابرو",
+      "category": "skin-care"
     },
     {
       "id": 26,
@@ -310,7 +335,8 @@
       "color": "قهوه‌ای",
       "layout-two": "eyebrow-eye-care",
       "layout-three": "Eyelash-and-eyebrow-enhancement",
-      "description": "ژل برای تقویت و ضخیم کردن ابرو"
+      "description": "ژل برای تقویت و ضخیم کردن ابرو",
+      "category": "skin-care"
     },
     {
       "id": 27,
@@ -322,7 +348,8 @@
       "color": "بژ روشن",
       "layout-two": "eyebrow-eye-care",
       "layout-three": "Eyelash-and-eyebrow-enhancement",
-      "description": "سرم مراقبت برای مژه و ابروهای سالم"
+      "description": "سرم مراقبت برای مژه و ابروهای سالم",
+      "category": "skin-care"
     },
     {
       "id": 28,
@@ -334,7 +361,8 @@
       "color": "سفید",
       "layout-two": "eyebrow-eye-care",
       "layout-three": "Anti-wrinkle-around-the-eyes",
-      "description": "کاهش خطوط ریز و چین و چروک اطراف چشم"
+      "description": "کاهش خطوط ریز و چین و چروک اطراف چشم",
+      "category": "skin-care"
     },
     {
       "id": 29,
@@ -346,7 +374,8 @@
       "color": "آبی روشن",
       "layout-two": "eyebrow-eye-care",
       "layout-three": "Anti-wrinkle-around-the-eyes",
-      "description": "ژل برای صاف کردن چین و چروک اطراف چشم"
+      "description": "ژل برای صاف کردن چین و چروک اطراف چشم",
+      "category": "skin-care"
     },
     {
       "id": 30,
@@ -358,7 +387,8 @@
       "color": "شفاف",
       "layout-two": "eyebrow-eye-care",
       "layout-three": "Anti-wrinkle-around-the-eyes",
-      "description": "سرم برای پیشگیری از علائم پیری اطراف چشم"
+      "description": "سرم برای پیشگیری از علائم پیری اطراف چشم",
+      "category": "skin-care"
     },
     {
       "id": 31,
@@ -370,7 +400,8 @@
       "color": "سفید",
       "layout-two": "eyebrow-eye-care",
       "layout-three": "Moisturizer-around-the-eyes",
-      "description": "کرم آبرسان برای نگه داشتن پوست دور چشم نرم"
+      "description": "کرم آبرسان برای نگه داشتن پوست دور چشم نرم",
+      "category": "skin-care"
     },
     {
       "id": 32,
@@ -382,7 +413,8 @@
       "color": "سبز روشن",
       "layout-two": "eyebrow-eye-care",
       "layout-three": "Moisturizer-around-the-eyes",
-      "description": "آرام‌بخش و مرطوب‌کننده ناحیه حساس دور چشم"
+      "description": "آرام‌بخش و مرطوب‌کننده ناحیه حساس دور چشم",
+      "category": "skin-care"
     },
     {
       "id": 33,
@@ -394,7 +426,8 @@
       "color": "هلوئی",
       "layout-two": "eyebrow-eye-care",
       "layout-three": "Moisturizer-around-the-eyes",
-      "description": "کاهش پف و آبرسانی پوست زیر چشم"
+      "description": "کاهش پف و آبرسانی پوست زیر چشم",
+      "category": "skin-care"
     },
     {
       "id": 34,
@@ -406,7 +439,8 @@
       "color": "شفاف",
       "layout-two": "eyebrow-eye-care",
       "layout-three": "Ey-serum-and-cream",
-      "description": "سرم برای روشن کردن سیاهی دور چشم و آبرسانی"
+      "description": "سرم برای روشن کردن سیاهی دور چشم و آبرسانی",
+      "category": "skin-care"
     },
     {
       "id": 35,
@@ -418,7 +452,8 @@
       "color": "سفید",
       "layout-two": "eyebrow-eye-care",
       "layout-three": "Ey-serum-and-cream",
-      "description": "جلوگیری از چروک و سفت‌کننده پوست زیر چشم"
+      "description": "جلوگیری از چروک و سفت‌کننده پوست زیر چشم",
+      "category": "skin-care"
     },
     {
       "id": 36,
@@ -430,7 +465,8 @@
       "color": "آبی",
       "layout-two": "eyebrow-eye-care",
       "layout-three": "Ey-serum-and-cream",
-      "description": "سرم آبرسان برای کاهش خشکی و خطوط ریز"
+      "description": "سرم آبرسان برای کاهش خشکی و خطوط ریز",
+      "category": "skin-care"
     },
     {
       "id": 37,
@@ -442,7 +478,8 @@
       "color": "قهوه‌ای",
       "layout-two": "body-care",
       "layout-three": "body-scrub",
-      "description": "حذف سلول‌های مرده و صاف‌کننده پوست"
+      "description": "حذف سلول‌های مرده و صاف‌کننده پوست",
+      "category": "skin-care"
     },
     {
       "id": 38,
@@ -454,7 +491,8 @@
       "color": "قهوه‌ای تیره",
       "layout-two": "body-care",
       "layout-three": "body-scrub",
-      "description": "اسکراب قهوه برای بازسازی و لایه‌برداری پوست"
+      "description": "اسکراب قهوه برای بازسازی و لایه‌برداری پوست",
+      "category": "skin-care"
     },
     {
       "id": 39,
@@ -466,7 +504,8 @@
       "color": "قهوه‌ای روشن",
       "layout-two": "body-care",
       "layout-three": "body-scrub",
-      "description": "اسکراب شکر ملایم برای پوست نرم و لطیف"
+      "description": "اسکراب شکر ملایم برای پوست نرم و لطیف",
+      "category": "skin-care"
     },
     {
       "id": 40,
@@ -478,7 +517,8 @@
       "color": "طلایی",
       "layout-two": "body-care",
       "layout-three": "Body-brightener",
-      "description": "روشن‌کننده رنگ پوست و ایجاد درخشش"
+      "description": "روشن‌کننده رنگ پوست و ایجاد درخشش",
+      "category": "skin-care"
     },
     {
       "id": 41,
@@ -490,7 +530,8 @@
       "color": "نارنجی",
       "layout-two": "body-care",
       "layout-three": "Body-brightener",
-      "description": "فرمول ویتامین C برای روشن کردن پوست کدر"
+      "description": "فرمول ویتامین C برای روشن کردن پوست کدر",
+      "category": "skin-care"
     },
     {
       "id": 42,
@@ -502,7 +543,8 @@
       "color": "سفید",
       "layout-two": "body-care",
       "layout-three": "Body-brightener",
-      "description": "مواد طبیعی برای پوست درخشان"
+      "description": "مواد طبیعی برای پوست درخشان",
+      "category": "skin-care"
     },
     {
       "id": 43,
@@ -514,7 +556,8 @@
       "color": "زرد",
       "layout-two": "body-care",
       "layout-three": "body-oil",
-      "description": "مرطوب‌کننده و مغذی پوست"
+      "description": "مرطوب‌کننده و مغذی پوست",
+      "category": "skin-care"
     },
     {
       "id": 44,
@@ -526,7 +569,8 @@
       "color": "بنفش روشن",
       "layout-two": "body-care",
       "layout-three": "body-oil",
-      "description": "روغن بدن با رایحه آرام‌بخش اسطوخودوس"
+      "description": "روغن بدن با رایحه آرام‌بخش اسطوخودوس",
+      "category": "skin-care"
     },
     {
       "id": 45,
@@ -538,7 +582,8 @@
       "color": "قهوه‌ای روشن",
       "layout-two": "body-care",
       "layout-three": "body-oil",
-      "description": "روغن بادام غنی برای پوست نرم و لطیف"
+      "description": "روغن بادام غنی برای پوست نرم و لطیف",
+      "category": "skin-care"
     },
     {
       "id": 46,
@@ -550,7 +595,8 @@
       "color": "سفید",
       "layout-two": "body-care",
       "layout-three": "Body-lotion",
-      "description": "لوسیون سبک برای حفظ رطوبت پوست"
+      "description": "لوسیون سبک برای حفظ رطوبت پوست",
+      "category": "skin-care"
     },
     {
       "id": 47,
@@ -562,7 +608,8 @@
       "color": "سبز",
       "layout-two": "body-care",
       "layout-three": "Body-lotion",
-      "description": "لوسیون آرام‌بخش آلوئه‌ورا برای استفاده روزانه"
+      "description": "لوسیون آرام‌بخش آلوئه‌ورا برای استفاده روزانه",
+      "category": "skin-care"
     },
     {
       "id": 48,
@@ -574,7 +621,8 @@
       "color": "کرم",
       "layout-two": "body-care",
       "layout-three": "Body-lotion",
-      "description": "لوسیون غنی برای تغذیه پوست خشک"
+      "description": "لوسیون غنی برای تغذیه پوست خشک",
+      "category": "skin-care"
     },
     {
       "id": 49,
@@ -586,7 +634,8 @@
       "color": "صورتی",
       "layout-two": "lip-care",
       "layout-three": "lip-balm",
-      "description": "بالم لب آبرسان برای جلوگیری از خشکی"
+      "description": "بالم لب آبرسان برای جلوگیری از خشکی",
+      "category": "skin-care"
     },
     {
       "id": 50,
@@ -598,7 +647,8 @@
       "color": "قرمز",
       "layout-two": "lip-care",
       "layout-three": "lip-balm",
-      "description": "بالم لب رنگی برای رنگ و رطوبت"
+      "description": "بالم لب رنگی برای رنگ و رطوبت",
+      "category": "skin-care"
     },
     {
       "id": 51,
@@ -610,7 +660,8 @@
       "color": "بژ",
       "layout-two": "lip-care",
       "layout-three": "lip-balm",
-      "description": "بالم لب غنی با شی باتر برای لب‌های نرم"
+      "description": "بالم لب غنی با شی باتر برای لب‌های نرم",
+      "category": "skin-care"
     },
     {
       "id": 52,
@@ -622,7 +673,8 @@
       "color": "شفاف",
       "layout-two": "lip-care",
       "layout-three": "lip-patch",
-      "description": "پچ لب برای آبرسانی عمیق و نرم کردن لب‌ها"
+      "description": "پچ لب برای آبرسانی عمیق و نرم کردن لب‌ها",
+      "category": "skin-care"
     },
     {
       "id": 53,
@@ -634,7 +686,8 @@
       "color": "صورتی",
       "layout-two": "lip-care",
       "layout-three": "lip-patch",
-      "description": "پچ لب کلاژن برای حجم‌دهی و رطوبت"
+      "description": "پچ لب کلاژن برای حجم‌دهی و رطوبت",
+      "category": "skin-care"
     },
     {
       "id": 54,
@@ -646,7 +699,8 @@
       "color": "نارنجی روشن",
       "layout-two": "lip-care",
       "layout-three": "lip-patch",
-      "description": "پچ لب غنی از ویتامین E برای لب‌های نرم"
+      "description": "پچ لب غنی از ویتامین E برای لب‌های نرم",
+      "category": "skin-care"
     }
   ]
 }

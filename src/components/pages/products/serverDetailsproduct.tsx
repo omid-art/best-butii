@@ -11,29 +11,25 @@ type Product = {
   color?: string;
   ["layout-two"]: string;
   ["layout-three"]?: string;
+  category: string;
 };
 
 interface Props {
   id: string | number;
-  data: Record<string, Product[]>;
+  data: Record<string, Product[]>; // چون هر فایل JSON یک دسته داره
   layoutValue: string;
 }
 
 export default function ProductDetailsPage({ id, data, layoutValue }: Props) {
-  const allProducts = Object.entries(data)
-    .flatMap(([category, items]) =>
-      items.map((item) => ({ ...item, category }))
-    );
-
-  // تبدیل id ورودی به رشته برای مقایسه دقیق
   const stringId = String(id);
 
-  // پیدا کردن محصول فقط در بین محصولات layout مشخص
-  const layoutProducts = allProducts.filter(
-    (p) => p["layout-two"] === layoutValue
-  );
+  // همه محصولات رو به یک آرایه مسطح تبدیل کن
+  const allProducts: Product[] = Object.values(data).flat();
 
-  const product = layoutProducts.find((p) => String(p.id) === stringId);
+  // پیدا کردن محصول اصلی
+  const product = allProducts.find(
+    (p) => String(p.id) === stringId && p["layout-two"] === layoutValue
+  );
 
   if (!product)
     return (
@@ -42,9 +38,23 @@ export default function ProductDetailsPage({ id, data, layoutValue }: Props) {
       </div>
     );
 
-  const relatedProducts = layoutProducts.filter(
-    (p) => String(p.id) !== stringId
-  );
+  // تبدیل id به number برای TypeScript
+  const productWithNumberId = { ...product, id: Number(product.id) };
 
-  return <ProductDetails product={product} relatedProducts={relatedProducts} />;
+  // محصولات مشابه
+  const relatedProducts = allProducts
+    .filter(
+      (p) =>
+        p.category === product.category &&
+        p["layout-two"] === product["layout-two"] &&
+        String(p.id) !== stringId
+    )
+    .map((p) => ({ ...p, id: Number(p.id) }));
+
+  return (
+    <ProductDetails
+      product={productWithNumberId}
+      relatedProducts={relatedProducts}
+    />
+  );
 }

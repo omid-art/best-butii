@@ -11,7 +11,7 @@ export default async function FaceMakeupPage() {
   const allProducts = await getData();
 
   const filteredProducts = allProducts.filter(
-    (item: any) => item["layout-two"] === "perfume-and-cologn"
+    (item: any) => item["layout-two"] === "perfume-and-cologne"
   );
 
   return <ProductComponent products={filteredProducts} />;

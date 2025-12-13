@@ -1,6 +1,6 @@
 "use client";
 import { useParams } from "next/navigation";
-import db from "@/data/products/product-makeup.json"; 
+import db from "@/data/products/product-electric-tools.json"; 
 import ProductDetails from "@/components/pages/products/productDetails";
 
 export default function Page() {
