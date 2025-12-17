@@ -3,7 +3,8 @@ import Navbar from "@/components/navbar";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence, Variants } from "framer-motion";
 import Link from "next/link";
-import { useRouter } from "next/navigation"; // ✅ برای بازگشت به صفحه قبل
+import { useRouter } from "next/navigation";
+import { useCart } from "@/context/cart-context";
 
 export interface Product {
   id: number | string;
@@ -29,15 +30,24 @@ export default function ProductDetails({
   relatedProducts,
 }: ProductProps) {
   const [added, setAdded] = useState(false);
-  const router = useRouter(); // ✅ استفاده از useRouter
+  const router = useRouter();
+
+  /* ✅ NEW */
+  const { addToCart } = useCart();
 
   const handleAddToCart = () => {
+    addToCart({
+      id: String(product.id),
+      title: product.name,
+      price: String(product.price),
+      image: product.url,
+    });
     setAdded(true);
     setTimeout(() => setAdded(false), 2500);
   };
 
   const handleGoBack = () => {
-    router.back(); // ✅ رفتن به صفحه قبل
+    router.back();
   };
 
   useEffect(() => {
@@ -69,7 +79,7 @@ export default function ProductDetails({
         animate="show"
       >
         {/* Main Product Section */}
-        <motion.div className="grid grid-cols-12 gap-8 mt-10">
+        <motion.div className="grid grid-cols-12 gap-12 mt-10">
           {/* Cart Box */}
           <motion.div
             variants={itemVariants}
@@ -77,7 +87,7 @@ export default function ProductDetails({
               scale: 1.06,
               boxShadow: "0px 20px 40px rgba(0,0,0,0.4)",
             }}
-            className="col-span-12 md:col-span-3 bg-gradient-to-br from-green-400 to-green-600 shadow-2xl rounded-3xl p-6 flex flex-col justify-between text-white relative overflow-hidden"
+            className="col-span-12 md:col-span-3 bg-gradient-to-br from-green-400 to-green-600 shadow-xl rounded-3xl p-4 flex flex-col justify-between text-white relative overflow-hidden"
           >
             <motion.div
               animate={{ opacity: [0, 0.3, 0] }}
@@ -95,7 +105,7 @@ export default function ProductDetails({
               disabled={added}
               onClick={handleAddToCart}
               whileTap={{ scale: 0.95 }}
-              className={`w-full mt-4 py-3 rounded-xl font-bold transition-all duration-300 z-10 relative ${
+              className={`w-full mt-4 py-2 rounded-xl font-bold transition-all duration-300 z-10 relative ${
                 added
                   ? "bg-gray-300 cursor-not-allowed text-gray-800"
                   : "bg-white text-green-600 hover:bg-green-100"
@@ -111,7 +121,7 @@ export default function ProductDetails({
             variants={itemVariants}
             initial="hidden"
             animate="show"
-            className="col-span-12 md:col-span-5 bg-white shadow-2xl rounded-3xl border border-gray-200 p-6 flex flex-col justify-between relative overflow-hidden text-right space-y-4"
+            className="col-span-12 md:col-span-5 bg-white shadow-xl rounded-3xl border border-gray-200 p-4 flex flex-col justify-between relative overflow-hidden text-right space-y-1"
           >
             <div className="flex justify-between items-center p-6 bg-purple-50 rounded-xl shadow-inner border border-purple-200">
               <p className="font-bold text-gray-800 text-xl">{product.name}</p>
@@ -148,7 +158,7 @@ export default function ProductDetails({
             whileHover={{ scale: 1.03 }}
             className="col-span-12 md:col-span-4 flex flex-col justify-between items-center"
           >
-            <div className="w-full flex-1 flex flex-col justify-between rounded-3xl overflow-hidden shadow-2xl border bg-gray-100 p-4">
+            <div className="w-full flex-1 flex flex-col justify-between rounded-3xl overflow-hidden shadow-xl border bg-gray-100 p-4">
               <div className="flex-1 flex items-center justify-center">
                 <img
                   src={product.url}
@@ -157,10 +167,9 @@ export default function ProductDetails({
                 />
               </div>
 
-              {/* ✅ دکمه بازگشت */}
               <button
                 onClick={handleGoBack}
-                className="mt-4 w-full py-3 bg-red-600 hover:bg-red-700 text-white font-bold rounded-xl transition-all"
+                className="mt-4 w-full py-2 bg-red-600 hover:bg-red-700 text-white font-bold rounded-xl transition-all"
               >
                 بازگشت به صفحه قبل
               </button>
@@ -171,12 +180,28 @@ export default function ProductDetails({
         {/* Related Products */}
         <motion.div
           key={product.id}
-          className="mt-16"
+          className="mt-4 relative"
           variants={containerVariants}
           initial="hidden"
           animate="show"
         >
-          <h3 className="font-bold text-2xl mb-6 text-center">محصولات مشابه</h3>
+          {/* Title + Arrow */}
+          <div className="flex items-center justify-center mb-6 space-x-2">
+            {/* Animated Down Arrow */}
+            <motion.div
+              animate={{ y: [0, 8, 0] }}
+              transition={{
+                repeat: Infinity,
+                duration: 1.2,
+                ease: "easeInOut",
+              }}
+              className="text-5xl text-black"
+            >
+              ↓
+            </motion.div>
+            <h3 className="font-bold text-2xl text-center">محصولات مشابه</h3>
+          </div>
+
           <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6">
             {relatedProducts.map((prod) => (
               <Link
