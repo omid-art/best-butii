@@ -176,8 +176,8 @@ export default function PaymentPage({
     setTimeout(() => {
       setSubmitting(false);
       setOtpOpen(false);
-      if (ok) router.push(`/payment/success`);
-      else router.push(`/payment/failed`);
+      if (ok) router.push(`/checkout/success`);
+      else router.push(`/checkout/unsuccess`);
     }, 900);
   }
 

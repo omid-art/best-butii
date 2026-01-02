@@ -30,10 +30,12 @@ export default function ProductDetails({
   relatedProducts,
 }: ProductProps) {
   const [added, setAdded] = useState(false);
+  const [favAdded, setFavAdded] = useState(false);
+
   const router = useRouter();
 
   /* ✅ NEW */
-  const { addToCart } = useCart();
+  const { addToCart, addToFavorites } = useCart();
 
   const handleAddToCart = () => {
     addToCart({
@@ -53,6 +55,21 @@ export default function ProductDetails({
   useEffect(() => {
     setAdded(false);
   }, [product]);
+
+  const handleAddToFavorites = () => {
+    addToFavorites({
+      id: String(product.id),
+      title: product.name,
+      price: String(product.price),
+      image: product.url,
+      brand: product.brand,
+      color: product.color,
+      des : product.description,
+    });
+
+    setFavAdded(true);
+    setTimeout(() => setFavAdded(false), 2500);
+  };
 
   const containerVariants: Variants = {
     hidden: {},
@@ -102,6 +119,19 @@ export default function ProductDetails({
             </div>
 
             <motion.button
+              disabled={favAdded}
+              onClick={handleAddToFavorites}
+              whileTap={{ scale: 0.95 }}
+              className={`w-full mt-4 py-2 rounded-xl font-bold transition-all duration-300 z-10 relative ${
+                favAdded
+                  ? "bg-gray-300 cursor-not-allowed text-gray-800"
+                  : "bg-purple-600 text-white hover:bg-purple-700"
+              }`}
+            >
+              {favAdded ? "💜 اضافه شد" : "🤍 افزودن به علاقه‌مندی‌ها"}
+            </motion.button>
+
+            <motion.button
               disabled={added}
               onClick={handleAddToCart}
               whileTap={{ scale: 0.95 }}
@@ -121,21 +151,21 @@ export default function ProductDetails({
             variants={itemVariants}
             initial="hidden"
             animate="show"
-            className="col-span-12 md:col-span-5 bg-white shadow-xl rounded-3xl border border-gray-200 p-4 flex flex-col justify-between relative overflow-hidden text-right space-y-1"
+            className="col-span-8 md:col-span-5 bg-white shadow-xl rounded-3xl border border-gray-200 p-4 flex flex-col justify-between relative overflow-hidden text-right space-y-1"
           >
-            <div className="flex justify-between items-center p-6 bg-purple-50 rounded-xl shadow-inner border border-purple-200">
+            <div className="flex justify-between items-center p-8 bg-purple-50 rounded-xl shadow-inner border border-purple-200">
               <p className="font-bold text-gray-800 text-xl">{product.name}</p>
               <p className="text-gray-500 font-semibold">: نام محصول </p>
             </div>
 
-            <div className="flex justify-between items-center p-6 bg-green-50 rounded-xl shadow-inner border border-green-200">
+            <div className="flex justify-between items-center p-8 bg-green-50 rounded-xl shadow-inner border border-green-200">
               <p className="font-semibold text-gray-700 text-xl">
                 {product.brand}
               </p>
               <p className="text-gray-500 font-semibold">: برند </p>
             </div>
 
-            <div className="flex justify-between items-start p-6 bg-yellow-50 rounded-xl shadow-inner border border-yellow-200">
+            <div className="flex justify-between items-start p-8 bg-yellow-50 rounded-xl shadow-inner border border-yellow-200">
               <p className="text-gray-600 leading-7 line-clamp-6 text-xl">
                 {product.description}
               </p>

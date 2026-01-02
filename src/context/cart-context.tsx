@@ -1,7 +1,11 @@
 "use client";
 
 import { createContext, useContext, useEffect, useState } from "react";
+import { PaymentData } from "@/context/payment-context";
 
+/* =======================
+   TYPES
+======================= */
 export interface CartItem {
   id: string;
   title: string;
@@ -10,43 +14,111 @@ export interface CartItem {
   quantity: number;
 }
 
+export interface FavoriteItem {
+  id: string;
+  title: string;
+  price: string;
+  image: string;
+  brand:string;
+  color : string;
+  des : string
+}
+
 interface CartContextType {
   cart: CartItem[];
+  favorites: FavoriteItem[];
+
   addToCart: (product: Omit<CartItem, "quantity">) => void;
   removeFromCart: (id: string) => void;
   increaseQty: (id: string) => void;
   decreaseQty: (id: string) => void;
+
+  addToFavorites: (product: FavoriteItem) => void;
+  removeFromFavorites: (id: string) => void;
+
+  finalizeOrder: (paymentData: PaymentData) => Promise<void>;
 }
 
 const CartContext = createContext<CartContextType | null>(null);
 
+/* =======================
+   PROVIDER
+======================= */
 export const CartProvider = ({ children }: { children: React.ReactNode }) => {
   const [cart, setCart] = useState<CartItem[]>([]);
-  const [isLoaded, setIsLoaded] = useState(false);
+  const [favorites, setFavorites] = useState<FavoriteItem[]>([]);
+  const [userId, setUserId] = useState<number | null>(null);
 
   /* =======================
-     LOAD CART (ON CLIENT)
+     LOAD USER DATA
   ======================= */
   useEffect(() => {
-    const savedCart = localStorage.getItem("cart");
-    if (savedCart) {
-      try {
-        setCart(JSON.parse(savedCart));
-      } catch {
-        setCart([]);
-      }
-    }
-    setIsLoaded(true);
+    const loadUserData = async () => {
+      const username = localStorage.getItem("username");
+      if (!username) return;
+
+      const res = await fetch("http://localhost:5005/users");
+      const users = await res.json();
+
+      const user = users.find((u: any) => u.username === username);
+      if (!user) return;
+
+      setUserId(user.id);
+      setCart(user.cart || []);
+      setFavorites(user.favorites || []);
+    };
+
+    loadUserData();
   }, []);
 
   /* =======================
-     SAVE CART
+     SYNC CART
   ======================= */
   useEffect(() => {
-    if (isLoaded) {
-      localStorage.setItem("cart", JSON.stringify(cart));
-    }
-  }, [cart, isLoaded]);
+    if (!userId) return;
+
+    fetch(`http://localhost:5005/users/${userId}`, {
+      method: "PATCH",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ cart }),
+    });
+  }, [cart, userId]);
+
+  /* =======================
+     SYNC FAVORITES
+  ======================= */
+  useEffect(() => {
+    if (!userId) return;
+
+    fetch(`http://localhost:5005/users/${userId}`, {
+      method: "PATCH",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ favorites }),
+    });
+  }, [favorites, userId]);
+
+  /* =======================
+     FINALIZE ORDER
+  ======================= */
+  const finalizeOrder = async (paymentData: PaymentData) => {
+    if (!userId) return;
+
+    const res = await fetch(`http://localhost:5005/users/${userId}`);
+    const user = await res.json();
+
+    const updatedOrders = [...(user.orders || []), paymentData];
+
+    await fetch(`http://localhost:5005/users/${userId}`, {
+      method: "PATCH",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        orders: updatedOrders,
+        cart: [],
+      }),
+    });
+
+    setCart([]);
+  };
 
   /* =======================
      CART ACTIONS
@@ -89,15 +161,46 @@ export const CartProvider = ({ children }: { children: React.ReactNode }) => {
     );
   };
 
+  /* =======================
+     FAVORITES ACTIONS
+  ======================= */
+  const addToFavorites = (product: FavoriteItem) => {
+    setFavorites((prev) => {
+      const exists = prev.find((item) => item.id === product.id);
+      if (exists) return prev;
+      return [...prev, product];
+    });
+  };
+
+  const removeFromFavorites = (id: string) => {
+    setFavorites((prev) => prev.filter((item) => item.id !== id));
+  };
+
   return (
     <CartContext.Provider
-      value={{ cart, addToCart, removeFromCart, increaseQty, decreaseQty }}
+      value={{
+        cart,
+        favorites,
+
+        addToCart,
+        removeFromCart,
+        increaseQty,
+        decreaseQty,
+
+        addToFavorites,
+        removeFromFavorites,
+
+        finalizeOrder,
+      }}
     >
       {children}
     </CartContext.Provider>
   );
 };
 
+/* =======================
+   HOOK
+======================= */
 export const useCart = () => {
   const ctx = useContext(CartContext);
   if (!ctx) throw new Error("useCart must be used inside CartProvider");

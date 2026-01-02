@@ -1,20 +1,172 @@
 {
   "users": [
-  
     {
-      "id": "1764226728423",
+      "id": "98",
       "phone": "09108610567",
       "otp": "12345",
       "firstName": "omid",
       "lastName": "pourbagher",
       "birthDate": "1386/01/19",
-      "location": "kataj",
-      "age": "12",
+      "location": "karaj",
+      "age": "18",
       "gender": "male",
       "username": "omid",
       "password": "00000123",
       "isAdmin": true,
-      "isLoggedIn": true
+      "isLoggedIn": true,
+      "cart": [],
+      "orders": [
+        {
+          "items": [
+            {
+              "id": "6",
+              "title": "پنکیک پوست طبیعی",
+              "price": 102000,
+              "quantity": 2
+            },
+            {
+              "id": "9",
+              "title": "کانسیلر پرو تاچ",
+              "price": 92000,
+              "quantity": 1
+            },
+            {
+              "id": "2",
+              "title": "پنکیک کرمی سافت تاچ",
+              "price": 135000,
+              "quantity": 1
+            },
+            {
+              "id": "3",
+              "title": "پنکیک کرمی اچ‌دی",
+              "price": 150000,
+              "quantity": 3
+            },
+            {
+              "id": "5",
+              "title": "پنکیک پوشش بالا",
+              "price": 110000,
+              "quantity": 1
+            }
+          ],
+          "totalPrice": 991000,
+          "tax": 89190,
+          "finalPrice": 1080190,
+          "merchant": "NextShop",
+          "orderId": "NS-960427"
+        }
+      ],
+      "favorites": [
+        {
+          "id": "11",
+          "title": "بالش پزشکی قابل تنظیم",
+          "price": "270,000",
+          "image": "/products/electric-tools/health-tool/medical-pillow/2.jpg",
+          "brand": "lora",
+          "color": "آبی",
+          "des": "بالش قابل تنظیم برای راحتی بهینه"
+        },
+        {
+          "id": "3",
+          "title": "عطر زنانه مرکباتی",
+          "price": "390,000",
+          "image": "/products/perfume-and-spray/perfume-and-cologn/women-perfume/3.jpg",
+          "brand": "maxy",
+          "color": "نارنجی",
+          "des": "رایحه تازه مرکباتی برای سبک زندگی فعال"
+        },
+        {
+          "id": "5",
+          "title": "پنکیک پوشش بالا",
+          "price": "110,000",
+          "image": "/products/makeup/face-makeup/pancake/2.jpg",
+          "brand": "benz",
+          "color": "vanilla",
+          "des": "پوشش‌دهی بسیار قوی"
+        }
+      ]
+    },
+    {
+      "id": "91",
+      "phone": "09932233455",
+      "otp": "12345",
+      "firstName": "amin",
+      "lastName": "bagheri",
+      "birthDate": "1386/01/19",
+      "location": "karaj",
+      "age": "17",
+      "gender": "male",
+      "username": "amin",
+      "password": "12345678",
+      "isAdmin": false,
+      "isLoggedIn": true,
+      "cart": [],
+      "orders": [],
+      "favorites": []
+    },
+    {
+      "id": "89",
+      "phone": "09108610567",
+      "otp": "12345",
+      "firstName": "پارسا",
+      "lastName": "هاشمی",
+      "birthDate": "1386/01/19",
+      "location": "کرج",
+      "age": "17",
+      "gender": "female",
+      "username": "parsa",
+      "password": "12345876",
+      "isAdmin": false,
+      "isLoggedIn": true,
+      "cart": [],
+      "orders": [],
+      "favorites": []
+    },
+    {
+      "id": "75",
+      "phone": "09932233455",
+      "otp": "12345",
+      "firstName": "عرشیا",
+      "lastName": "پایمرد",
+      "birthDate": "1386/01/19",
+      "location": "کرج",
+      "age": "16",
+      "gender": "other",
+      "username": "arshia",
+      "password": "87654321",
+      "isAdmin": false,
+      "isLoggedIn": true,
+      "cart": [],
+      "orders": [
+        {
+          "items": [
+            {
+              "id": "3",
+              "title": "پنکیک کرمی اچ‌دی",
+              "price": 150000,
+              "quantity": 1
+            },
+            {
+              "id": "1",
+              "title": "عطر زنانه گلدار",
+              "price": 350000,
+              "quantity": 2
+            },
+            {
+              "id": "6",
+              "title": "عطر مردانه تازه",
+              "price": 400000,
+              "quantity": 1
+            }
+          ],
+          "totalPrice": 1250000,
+          "tax": 112500,
+          "finalPrice": 1362500,
+          "merchant": "NextShop",
+          "orderId": "NS-727964"
+        }
+      ],
+      "favorites": []
     }
   ]
 }

@@ -15,18 +15,21 @@ export type PaymentData = {
   tax: number;
   finalPrice: number;
   merchant: string;
-  orderId: string;
+  orderId: number;
 };
+
+type PaymentStatus = "idle" | "success" | "failed";
 
 type PaymentContextType = {
   paymentData: PaymentData | null;
+  paymentStatus: PaymentStatus;
   setPaymentData: (data: PaymentData) => void;
+  setPaymentStatus: (status: PaymentStatus) => void;
+  clearPayment: () => void;
 };
 
-// مقدار پیش‌فرض undefined
 const PaymentContext = createContext<PaymentContextType | undefined>(undefined);
 
-// Hook امن
 export const usePayment = () => {
   const context = useContext(PaymentContext);
   if (!context) {
@@ -37,9 +40,23 @@ export const usePayment = () => {
 
 export const PaymentProvider = ({ children }: { children: ReactNode }) => {
   const [paymentData, setPaymentData] = useState<PaymentData | null>(null);
+  const [paymentStatus, setPaymentStatus] = useState<PaymentStatus>("idle");
+
+  const clearPayment = () => {
+    setPaymentData(null);
+    setPaymentStatus("idle");
+  };
 
   return (
-    <PaymentContext.Provider value={{ paymentData, setPaymentData }}>
+    <PaymentContext.Provider
+      value={{
+        paymentData,
+        paymentStatus,
+        setPaymentData,
+        setPaymentStatus,
+        clearPayment,
+      }}
+    >
       {children}
     </PaymentContext.Provider>
   );

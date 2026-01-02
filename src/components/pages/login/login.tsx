@@ -59,7 +59,7 @@ export default function LoginPage() {
     e.preventDefault();
 
     try {
-      const res = await fetch("http://localhost:5000/users");
+      const res = await fetch("http://localhost:5005/users");
       const users = await res.json();
 
       const user = users.find(
@@ -121,7 +121,7 @@ export default function LoginPage() {
       }
 
       try {
-        const res = await fetch("http://localhost:5000/users");
+        const res = await fetch("http://localhost:5005/users");
         const users = await res.json();
 
         const usernameExists = users.some(
@@ -147,15 +147,17 @@ export default function LoginPage() {
         // ------------------------------------------------------
         const isAdmin = registerData.password.startsWith("00000");
 
-        // ساخت یوزر جدید
         const newUser = {
-          id: Date.now(),
+         id: Math.floor(Math.random() * 90) + 10,
           ...registerData,
-          isAdmin: isAdmin, // ✔️ فیلد جدید
+          isAdmin: isAdmin,
           isLoggedIn: true,
+          cart: [],
+          orders: [],
+          favorites:[],
         };
 
-        const response = await fetch("http://localhost:5000/users", {
+        const response = await fetch("http://localhost:5005/users", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(newUser),

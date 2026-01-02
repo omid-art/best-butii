@@ -3,64 +3,42 @@
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { usePayment } from "@/context/payment-context";
+import { useCart } from "@/context/cart-context";
 
 export default function PaymentSuccess() {
   const router = useRouter();
   const { paymentData } = usePayment();
+  const { finalizeOrder } = useCart();
 
   useEffect(() => {
-    // اگه کسی مستقیم این صفحه رو باز کرد
     if (!paymentData) {
       router.replace("/");
+      return;
     }
-  }, [paymentData, router]);
+
+    finalizeOrder(paymentData);
+  }, []);
 
   if (!paymentData) return null;
 
   return (
-    <div
-      className="min-h-screen flex items-center justify-center bg-gradient-to-b from-green-50 to-white"
-      dir="rtl"
-    >
-      <div className="bg-white rounded-xl shadow-lg p-8 max-w-xl w-full text-center">
+    <div className="min-h-screen flex items-center justify-center" dir="rtl">
+      <div className="bg-white p-8 rounded-xl shadow text-center">
         <div className="text-4xl">✅</div>
-
-        <h1 className="text-2xl font-bold mt-3 text-green-700">
-          پرداخت با موفقیت انجام شد
-        </h1>
-
-        <p className="mt-3 text-gray-700">
-          فروشگاه:{" "}
-          <span className="font-semibold">{paymentData.merchant}</span>
+        <h1 className="text-2xl mt-3">پرداخت موفق</h1>
+        <p className="mt-2">
+          شماره سفارش: <b>{paymentData.orderId}</b>
+        </p>
+        <p className="mt-2">
+          مبلغ: <b>{paymentData.finalPrice.toLocaleString()} تومان</b>
         </p>
 
-        <p className="mt-1 text-gray-700">
-          مبلغ:{" "}
-          <span className="font-semibold">
-            {paymentData.finalPrice.toLocaleString()} تومان
-          </span>
-        </p>
-
-        <p className="mt-1 text-gray-700">
-          شماره سفارش:{" "}
-          <span className="font-mono">{paymentData.orderId}</span>
-        </p>
-
-        <div className="mt-6 flex justify-center gap-3">
-          <button
-            onClick={() => router.push("/")}
-            className="px-4 py-2 rounded-md bg-purple-600 text-white"
-          >
-            بازگشت به فروشگاه
-          </button>
-
-          <button
-            onClick={() => router.back()}
-            className="px-4 py-2 rounded-md border"
-          >
-            مشاهده سفارش
-          </button>
-        </div>
+        <button
+          onClick={() => router.push("/")}
+          className="mt-4 px-4 py-2 bg-purple-600 text-white rounded"
+        >
+          بازگشت به فروشگاه
+        </button>
       </div>
     </div>
   );
